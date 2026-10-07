@@ -29,7 +29,8 @@ installation, full guest payload rebuild/parity, SDK world bundle build and
 human VR/desktop client tests remain outside the executed verification scope;
 see [release validation](RELEASE-VALIDATION.md).
 
-The source tag is `084ba9e1ba2b0734c5d2ab5141db4b112bbadb9a`. The live listing
+This is the historical 0.1.0 validation record; current distribution uses 0.1.1.
+Earlier release assets and source history are pending privacy cleanup. The live listing
 is maintained on `main`; use its advertised URL, rather than a historical listing
 copy from a source tag. Neither this package repository nor gdm-world had a
 configured GitHub Actions workflow or reported commit/PR check during verification.
