@@ -6,3 +6,6 @@ Packages/**/Tools~/Doom/source-overlay/** text eol=lf
 *.png binary
 *.fbx binary
 *.wav binary
+# Keep extracted Unity assets, notices and build inputs byte-identical to the ZIP.
+# Python/Unity accept the original LF/CRLF; source-map hashes include those bytes.
+Packages/** -text
