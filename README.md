@@ -2,7 +2,7 @@
 
 Package extracted from gdm-world PR #4 at
 `ef17f8d6fd69be46f393918768b35b513a8192c1` in response to fog-zs's request to
-maintain the additions separately. Version 0.1.0 is distributed as a source/tools
+maintain the additions separately. Version 0.1.1 is distributed as a source/tools
 package; generated guest payloads and VRChat world bundles are excluded.
 
 `Packages/io.github.gazelle221b.freedoom-station` is the VCC User Package folder.
@@ -20,8 +20,8 @@ Add this community repository URL to VCC Settings > Packages > Add Repository:
 
 `https://raw.githubusercontent.com/Gazelle221B/freedoom-station-vpm/main/index.json`
 
-Then select **Freedoom Station 0.1.0** in your Worlds project's package manager.
-[Release ZIP](https://github.com/Gazelle221B/freedoom-station-vpm/releases/download/v0.1.0/freedoom-station-0.1.0.zip) / [tagged source](https://github.com/Gazelle221B/freedoom-station-vpm/tree/v0.1.0).
+Then select **Freedoom Station 0.1.1** in your Worlds project's package manager.
+[Release ZIP](https://github.com/Gazelle221B/freedoom-station-vpm/releases/download/v0.1.1/freedoom-station-0.1.1.zip) / [tagged source](https://github.com/Gazelle221B/freedoom-station-vpm/tree/v0.1.1).
 For local development instead, use the User Package procedure below.
 
 ## Station setup / local development
@@ -64,6 +64,11 @@ assets in its own Doom/RVC/Dial dependency closure.
 
 ## Validation and licenses
 
+Author contact: `contact@tik-choco.com`. Version 0.1.1 updates contact metadata
+and the tagged source link; runtime, payload tooling and upstream notices are
+unchanged. See [contact update verification](CONTACT-UPDATE.md). Version 0.1.0
+validation reports remain historical records.
+
 See [release validation](RELEASE-VALIDATION.md) for the executed checks and their
 limits. Full Linux payload rebuild, C/GPU parity, VRChat bundle/client checks and
 VCC UI installation/upgrade/uninstall were not rerun for this package release.
@@ -73,7 +78,7 @@ Component licenses are preserved; see [Third Party Notices](Packages/io.github.g
 Dial is CC BY-NC-SA 2.0, including its noncommercial condition. GPL guest engines
 are obtained separately from pinned upstream sources. This package does not
 relicense the VRChat SDK or distribute game data. The board links to
-[https://github.com/Gazelle221B/freedoom-station-vpm/tree/v0.1.0](https://github.com/Gazelle221B/freedoom-station-vpm/tree/v0.1.0); rebuild it after changing local payload/source inputs.
+[https://github.com/Gazelle221B/freedoom-station-vpm/tree/v0.1.1](https://github.com/Gazelle221B/freedoom-station-vpm/tree/v0.1.1); rebuild it after changing local payload/source inputs.
 
 `source-map.json` records the extraction's original file paths and SHA-256 hashes;
 `publication-changes.json` records approved license clarification and label edits.

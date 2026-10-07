@@ -1,0 +1,11 @@
+{
+  "version": "0.1.1",
+  "changes": [
+    {
+      "target": "Templates~/Doom/DoomStation.prefab",
+      "previousSha256": "a0fffcf26a4a366087e0a83ecf0820fced2ea843150f6ead6f79808027b5c551",
+      "sha256": "e2697fd8814852ab03d101ebc835fa75dc4322d67e25f62279f6d78a1840d175",
+      "purpose": "Regenerated source URL for contact metadata release; runtime and upstream documents unchanged."
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "name": "io.github.gazelle221b.freedoom-station",
   "displayName": "Freedoom Station",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "unity": "2022.3",
   "description": "RVC shader terminal, Freedoom local payload build tools and original license viewer.",
   "author": {
@@ -17,7 +17,7 @@
   "vpmDependencies": {
     "com.vrchat.worlds": "3.10.3"
   },
-  "url": "https://github.com/Gazelle221B/freedoom-station-vpm/releases/download/v0.1.0/freedoom-station-0.1.0.zip",
+  "url": "https://github.com/Gazelle221B/freedoom-station-vpm/releases/download/v0.1.1/freedoom-station-0.1.1.zip",
   "documentationUrl": "https://github.com/Gazelle221B/freedoom-station-vpm",
-  "changelogUrl": "https://github.com/Gazelle221B/freedoom-station-vpm/releases/tag/v0.1.0"
+  "changelogUrl": "https://github.com/Gazelle221B/freedoom-station-vpm/releases/tag/v0.1.1"
 }

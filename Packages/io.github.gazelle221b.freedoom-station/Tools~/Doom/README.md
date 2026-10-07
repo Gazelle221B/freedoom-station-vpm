@@ -113,7 +113,7 @@ is **Rvc License Sans 1.000**, derived from Noto Sans JP/Noto Sans under SIL OFL
 versions, pins and hashes. There is no runtime fallback or Update loop.
 
 `Assets/Doom/LicenseBoard/documents.json` centralizes the source URL
-`https://github.com/Gazelle221B/freedoom-station-vpm/tree/v0.1.0` and the historical production payload hash.
+`https://github.com/Gazelle221B/freedoom-station-vpm/tree/v0.1.1` and the historical production payload hash.
 Regenerate and verify the board when local payload/source inputs change.
 No public source-distribution endpoint or world upload is created by these tools.
 Release/license proposals remain in `source-overlay/doom_payload/licenses`.
