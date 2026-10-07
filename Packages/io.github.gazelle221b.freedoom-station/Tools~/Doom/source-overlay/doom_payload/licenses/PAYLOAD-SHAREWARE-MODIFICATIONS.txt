@@ -1,0 +1,9 @@
+rvc shareware verification payload modifications, 2026-10-04
+
+embeddeddoom b52f80968a25a90b2ab0cf6c97703876b2d56e59 is modified:
+UART ASCII display/input, E1M1 baking and strip selection, bounded
+vertex/COLORMAP/translation serialization and deterministic texture padding.
+Freedoom retail rules and neutral startup notices are not applied to this
+verification selection. Original copyright and GPL texts are retained.
+The shareware game data has its own terms and is not part of the GPL grant.
+Do not publish this verification payload or its WAD-derived textures.

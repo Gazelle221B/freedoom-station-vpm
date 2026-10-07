@@ -1,0 +1,13 @@
+#!/bin/sh
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin
+mount -t devtmpfs devtmpfs /dev
+mount -t proc proc /proc
+mount -t sysfs sysfs /sys
+mount -t tmpfs tmpfs /tmp
+cd /
+echo RVC_DOOM_AUTO_READY
+cat /proc/meminfo
+echo RVC_DOOM_AUTOSTART_ASCII
+RVC_DOOM_TERMINAL=1 RVC_DOOM_ASCII_MODE=${RVC_DOOM_ASCII_MODE:-C} RVC_DOOM_MARKERS=${RVC_DOOM_MARKERS:-0} ./emdoom -warp 1 1 -singletics
+echo RVC_DOOM_PROCESS_ENDED
+while true; do getty -n -l /bin/sh 0 /dev/hvc0; done

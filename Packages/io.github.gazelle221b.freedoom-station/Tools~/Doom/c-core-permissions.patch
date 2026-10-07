@@ -1,0 +1,40 @@
+diff --git a/src/emu.h b/src/emu.h
+index d51e24ef..7ff23c11 100644
+--- a/src/emu.h
++++ b/src/emu.h
+@@ -424,12 +424,12 @@ DEF(srai, FormatR, { // rv32i
+ DEF(sret, FormatEmpty, { // system
+     uint newpc = get_csr(cpu, CSR_SEPC, ret);
+     if (!ret->trap.en) {
+-        uint status = read_csr_raw(cpu, CSR_SSTATUS);
++        uint status = read_csr_raw(cpu, CSR_MSTATUS);
+         uint spie = (status >> 5) & 1;
+         uint spp = (status >> 8) & 1;
+         uint mprv = spp == PRIV_MACHINE ? ((status >> 17) & 1) : 0;
+         uint new_status = (status & ~0x20122) | (mprv << 17) | (spie << 1) | (1 << 5);
+-        write_csr_raw(cpu, CSR_SSTATUS, new_status);
++        write_csr_raw(cpu, CSR_MSTATUS, new_status);
+         cpu->csr.privilege = spp;
+         WR_PC(newpc)
+     }
+diff --git a/src/mmu.h b/src/mmu.h
+index 74c52cbe..5f23f0c1 100644
+--- a/src/mmu.h
++++ b/src/mmu.h
+@@ -95,6 +95,7 @@ uint mmu_translate(ins_ret *ins, uint addr, uint mode) {
+ 
+     uint sum, mxr;
+     uint priv = get_effective_privilege(&sum, &mxr);
++    if (mode == MMU_ACCESS_FETCH) priv = cpu.csr.privilege; // MPRV affects data accesses only
+ 
+     // machine mode fetch will always use physical addresses, otherwise 'mxr'
+     // defines if paging will be used
+@@ -151,7 +152,7 @@ uint mmu_translate(ins_ret *ins, uint addr, uint mode) {
+     bool perm =
+         priv == PRIV_MACHINE || // machine can read everything
+         (priv == PRIV_USER && page.u) || // this is a user page
+-        (priv == PRIV_SUPERVISOR && (!page.u || sum)); // supervisor page or SUM
++        (priv == PRIV_SUPERVISOR && (!page.u || (sum && mode != MMU_ACCESS_FETCH))); // SUM permits data access only
+     bool access =
+         (mode == MMU_ACCESS_FETCH && page.x) ||
+         (mode == MMU_ACCESS_READ && (page.r || (page.x && mxr))) ||

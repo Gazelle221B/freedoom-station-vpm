@@ -1,0 +1,10 @@
+{
+  "name": "FreedoomStation.Runtime",
+  "references": [
+    "UdonSharp.Runtime",
+    "VRC.Udon",
+    "Unity.TextMeshPro",
+    "UnityEngine.UI"
+  ],
+  "autoReferenced": true
+}

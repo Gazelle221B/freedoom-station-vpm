@@ -1,0 +1,4 @@
+# Preserve the exact original license/credit bytes, including BOM and CRLF.
+# This overrides doom_payload/.gitattributes's general LF normalization.
+Documents/* -text
+UnityAssets/Assets/Doom/LicenseBoard/LicenseSDF.asset binary

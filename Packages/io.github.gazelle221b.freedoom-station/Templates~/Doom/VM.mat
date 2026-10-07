@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VM
+  m_Shader: {fileID: 4800000, guid: 6ee21bb85e36aaa439fa6f9c31141333, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Data_DTB_A:
+        m_Texture: {fileID: 2800000, guid: 654204887fa34f547980ac95c26d392b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Data_DTB_B:
+        m_Texture: {fileID: 2800000, guid: fb2caf3f54ea8dc47bb936f93fa6b4f7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Data_DTB_G:
+        m_Texture: {fileID: 2800000, guid: 1c64cc8e52fb50744a146b2fb1e2c9d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Data_DTB_R:
+        m_Texture: {fileID: 2800000, guid: b132911c4a8aacb4d9a3d398df6a3b6b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Data_MTD_A:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Data_MTD_B:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Data_MTD_G:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Data_MTD_R:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Data_RAM_A:
+        m_Texture: {fileID: 2800000, guid: 1466d1fcaacd99c419a07630db4cc1d7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Data_RAM_B:
+        m_Texture: {fileID: 2800000, guid: 33ac7b4ff5b79ff4ab6f771b92837d12, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Data_RAM_G:
+        m_Texture: {fileID: 2800000, guid: db0f8b8596371a34eac8a9a0f063afd8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Data_RAM_R:
+        m_Texture: {fileID: 2800000, guid: 397de7cfaba1ad547b0306b243607551, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Data_RAM_RAW:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DoTick: 0
+    - _Init: 0
+    - _InitRaw: 0
+    - _PlayerID: -1
+    - _RTC0: 0
+    - _RTC1: 0
+    - _Ticks: 16384
+    - _TicksDivisor: 4
+    - _UdonUARTInChar: 119
+    - _UdonUARTInTag: 2
+    m_Colors: []
+  m_BuildTextureStacks: []

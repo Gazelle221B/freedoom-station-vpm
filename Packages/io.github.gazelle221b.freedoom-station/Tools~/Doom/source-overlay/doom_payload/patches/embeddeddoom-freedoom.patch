@@ -1,0 +1,37 @@
+--- a/src/d_main.c
++++ b/src/d_main.c
+@@ -1,3 +1,4 @@
++// Modified 2026-10-04 for the rvc Freedoom payload: retail rules and neutral startup notices.
+ // Emacs style mode select   -*- C++ -*- 
+ //-----------------------------------------------------------------------------
+ //
+@@ -540,7 +541,8 @@
+ //
+ void IdentifyVersion (void)
+ {
+-      gamemode = shareware;
++      gamemode = retail; // Selected Freedoom Phase 1 IWAD
++      printf("RVC_IWAD: Freedoom Phase 1 (retail)\n");
+       //D_AddFile ("doom1.wad");
+ }
+ 
+@@ -574,7 +576,7 @@
+ 		case retail:
+ 	sprintf (title,
+ 		 "                         "
+-		 "The Ultimate DOOM Startup v%i.%i"
++		 "Freedoom Phase 1 Startup v%i.%i"
+ 		 "                           ",
+ 		 VERSION/100,VERSION%100);
+ 	break;
+@@ -833,8 +835,8 @@
+       case commercial:
+ 	printf (
+ 	    "===========================================================================\n"
+-	    "                 Commercial product - do not distribute!\n"
+-	    "         Please report software piracy to the SPA: 1-800-388-PIR8\n"
++	    "                 Freedoom Phase 1 - freely redistributable data\n"
++	    "         See /usr/share/licenses/freedoom for license and credits\n"
+ 	    "===========================================================================\n"
+ 	);
+ 	break;

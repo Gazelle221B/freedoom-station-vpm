@@ -1,0 +1,2572 @@
+{
+  "sourceRepository": "https://github.com/metaverse-gdm/gdm-world",
+  "sourceCommit": "ef17f8d6fd69be46f393918768b35b513a8192c1",
+  "baseCommit": "9e1f41cc12d1e4f54b57aa36412df28d9c549c51",
+  "files": [
+    {
+      "source": "Assets/Doom/Console.mat",
+      "target": "Templates~/Doom/Console.mat",
+      "sha256": "4bc0c9e7500f01e3fab6839d96ff1d7681e89e2f43a97e24ea08aa5b7ec77af6"
+    },
+    {
+      "source": "Assets/Doom/Console.mat.meta",
+      "target": "Templates~/Doom/Console.mat.meta",
+      "sha256": "135b8c96a68c3c4418547dd7da31d8edbffa69da385e0b8699f8d3439810da0a"
+    },
+    {
+      "source": "Assets/Doom/DoomControl.asset",
+      "target": "Doom/DoomControl.asset",
+      "sha256": "5dbbdc3c6ad0bfc272d1de5a5a13141ab2a92be449734652b167663926f3d826"
+    },
+    {
+      "source": "Assets/Doom/DoomControl.asset.meta",
+      "target": "Doom/DoomControl.asset.meta",
+      "sha256": "ba98aa833a9d6978e2f803e39a0fc7b87b8ac42b80409d3203714335a4f74c99"
+    },
+    {
+      "source": "Assets/Doom/DoomInputAck.asset",
+      "target": "Doom/DoomInputAck.asset",
+      "sha256": "0233a4d121f8ba66eb05bcf4c8c1e613b30387688d9d0f44524fc84d20fa1e55"
+    },
+    {
+      "source": "Assets/Doom/DoomInputAck.asset.meta",
+      "target": "Doom/DoomInputAck.asset.meta",
+      "sha256": "be4334e837a5f5388a940defc688f7cf6ec5ba8f4ae9b027323de85a8f2c51ce"
+    },
+    {
+      "source": "Assets/Doom/DoomKeyButton.asset",
+      "target": "Doom/DoomKeyButton.asset",
+      "sha256": "5d114336fd1ce5c8004b57714e2447761720122977b536bac442a177c4929ae7"
+    },
+    {
+      "source": "Assets/Doom/DoomKeyButton.asset.meta",
+      "target": "Doom/DoomKeyButton.asset.meta",
+      "sha256": "6a9521f15c2e0b21eeaef759af9a59a7695db62759d442a00dea8fafc1580938"
+    },
+    {
+      "source": "Assets/Doom/DoomStation.prefab",
+      "target": "Templates~/Doom/DoomStation.prefab",
+      "sha256": "b41ee69d1e878ac38521ccf47c6d59dabfc2484e158923350f7588138de41fb7"
+    },
+    {
+      "source": "Assets/Doom/DoomStation.prefab.meta",
+      "target": "Templates~/Doom/DoomStation.prefab.meta",
+      "sha256": "7e49f94acf5e872952a434b13d1a641375e83bc3c57185a93b6762ef670ed550"
+    },
+    {
+      "source": "Assets/Doom/DoomWorld.unity",
+      "target": "Templates~/Doom/DoomWorld.unity",
+      "sha256": "8f2b62e3fc685254f90bb263f9f7c950fadb429c2a692714171746fdd6645197"
+    },
+    {
+      "source": "Assets/Doom/DoomWorld.unity.meta",
+      "target": "Templates~/Doom/DoomWorld.unity.meta",
+      "sha256": "fb0f7e0282550ed1e771d35b6c3278eeadfba8be810db152b6c21d37ed3e80ef"
+    },
+    {
+      "source": "Assets/Doom/Editor.meta",
+      "target": "Editor.meta",
+      "sha256": "cbc06a12d05e87976466fff8cfc03c606543bf9829e3c89eead283af204baaa7"
+    },
+    {
+      "source": "Assets/Doom/FB.asset",
+      "target": "Templates~/Doom/FB.asset",
+      "sha256": "f0919d301d346a61deb167ba957fc581673b42aa1ce28a4a25c3dd504caa98b1"
+    },
+    {
+      "source": "Assets/Doom/FB.asset.meta",
+      "target": "Templates~/Doom/FB.asset.meta",
+      "sha256": "c99d754c6f63f6d261c5450d4116e4590812885110f159eda1963657bf71e01b"
+    },
+    {
+      "source": "Assets/Doom/FB.mat",
+      "target": "Templates~/Doom/FB.mat",
+      "sha256": "49bb8dc27681ca4b7033569e5efd741a15d26ec4753838e50217b8a340897fe7"
+    },
+    {
+      "source": "Assets/Doom/FB.mat.meta",
+      "target": "Templates~/Doom/FB.mat.meta",
+      "sha256": "8b1e4ed9bb8801b665c3d77a45ffd9f879047a1caaf03cba62ff3b97ba0336c3"
+    },
+    {
+      "source": "Assets/Doom/InputAck.mat",
+      "target": "Templates~/Doom/InputAck.mat",
+      "sha256": "29958191d36a6777c076db667ddd3e04f7a5e5d95fbdf68b59176b48bc01e306"
+    },
+    {
+      "source": "Assets/Doom/InputAck.mat.meta",
+      "target": "Templates~/Doom/InputAck.mat.meta",
+      "sha256": "ae5ae59dc5198ea259ca8137c423507923e3477124959f3316170330d67c72e4"
+    },
+    {
+      "source": "Assets/Doom/InputAckBuffer.asset",
+      "target": "Templates~/Doom/InputAckBuffer.asset",
+      "sha256": "624bf554e2f08de3c1f575bc83e61a92daf68714fedf21f3aede0ce6ebd38e05"
+    },
+    {
+      "source": "Assets/Doom/InputAckBuffer.asset.meta",
+      "target": "Templates~/Doom/InputAckBuffer.asset.meta",
+      "sha256": "9abea73257c53a939ea7c62ac3ddfad65e9c4d94d4c08016490b7a475a704799"
+    },
+    {
+      "source": "Assets/Doom/InputAckRT.asset",
+      "target": "Templates~/Doom/InputAckRT.asset",
+      "sha256": "f6a71ca3c8ded31f2d965f81d95651ff9a3f9a3bda3f66a84129aee075c514b0"
+    },
+    {
+      "source": "Assets/Doom/InputAckRT.asset.meta",
+      "target": "Templates~/Doom/InputAckRT.asset.meta",
+      "sha256": "60f4b00fbae481edfa3611e85aa9fe96d431567857c01486c21ee6dea1152d27"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard.meta",
+      "target": "Templates~/Doom/LicenseBoard.meta",
+      "sha256": "e22c49b514ca6b0a59249bfd759e99e81e09c50ff1194f105f00123bee76511d"
+    },
+    {
+      "source": "Assets/Doom/Runtime.meta",
+      "target": "Doom/Runtime.meta",
+      "sha256": "d9f0906125fa2422feb4d0f45267ec3740680187846fd9104e5c798118918739"
+    },
+    {
+      "source": "Assets/Doom/VM.asset",
+      "target": "Templates~/Doom/VM.asset",
+      "sha256": "82334adf4583972ceb1fba57c38e6bec9193a705a81ac96d0c86017a97c60f5a"
+    },
+    {
+      "source": "Assets/Doom/VM.asset.meta",
+      "target": "Templates~/Doom/VM.asset.meta",
+      "sha256": "c035e40851b9185adb1fe8dd3ea9dd02adb0410822ac00715c3d8e707d256b6c"
+    },
+    {
+      "source": "Assets/Doom/VM.mat",
+      "target": "Templates~/Doom/VM.mat",
+      "sha256": "7dc9d84216ee742584dafa068787deba90a346426624c5c94496b0e97c7d6d13"
+    },
+    {
+      "source": "Assets/Doom/VM.mat.meta",
+      "target": "Templates~/Doom/VM.mat.meta",
+      "sha256": "290ec1d22b321d3b9645d402f67f840bc5bbb90473344c2a9b96ebaaf0cd3736"
+    },
+    {
+      "source": "Assets/Doom/Editor/AutoImport.cs",
+      "target": "Editor/AutoImport.cs",
+      "sha256": "0a63cf96592b3c7825691a47a7d84a7ec088db65045b8e48d0667144f8bf424b"
+    },
+    {
+      "source": "Assets/Doom/Editor/AutoImport.cs.meta",
+      "target": "Editor/AutoImport.cs.meta",
+      "sha256": "46fd2823f0f9cf1ba1725dd6cd181d7c3a614d499997e54f2556b5230580ec4d"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomBootstrap.cs",
+      "target": "Editor/DoomBootstrap.cs",
+      "sha256": "e5516828350eb8c7d7a46e13fcb9df0143ea171038ba51475b6808441527c943"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomBootstrap.cs.meta",
+      "target": "Editor/DoomBootstrap.cs.meta",
+      "sha256": "9e93ed7d503a126973aa904bd320c5e05752a6294a363667049d73cb3349bffb"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomBuild.cs",
+      "target": "Editor/DoomBuild.cs",
+      "sha256": "ee32b9e3ecbefa2aced3be6c957dc383e9b23d3264cc55943c645e908369da11"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomBuild.cs.meta",
+      "target": "Editor/DoomBuild.cs.meta",
+      "sha256": "1c9715a1175ea761163afd3fac58e6ac048396e9d85aa85e8e3b6bd2a7062ec9"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomDisplayAudit.cs",
+      "target": "Editor/DoomDisplayAudit.cs",
+      "sha256": "cabc677389885d325c172f3491f2fb32b464d3e55a5e25fc35479a01adc487df"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomDisplayAudit.cs.meta",
+      "target": "Editor/DoomDisplayAudit.cs.meta",
+      "sha256": "3caeea68f8028cfcbfb7187452ae785193cdc08d5e90f08a1b9a627f4974aa65"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomFramebufferProbe.cs",
+      "target": "Editor/DoomFramebufferProbe.cs",
+      "sha256": "b21da1097a9d1327f4d4f1458c0bf8e879ffd652c0c21286c415ad1e86541f4c"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomFramebufferProbe.cs.meta",
+      "target": "Editor/DoomFramebufferProbe.cs.meta",
+      "sha256": "01d10554a8c6980e76681ca1dcf240ce60eb7d256ea8b0a2841e872c6d672201"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomIsaTests.cs",
+      "target": "Editor/DoomIsaTests.cs",
+      "sha256": "62e81847ff550dd60a7b86a41473d838e3233450c0dbeb64ed44e40fc59efb94"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomIsaTests.cs.meta",
+      "target": "Editor/DoomIsaTests.cs.meta",
+      "sha256": "d60a5500ade936b81915b613696d096b3ff9e73b7dd5139b07e91276b5c0926d"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomIwadVerify.cs",
+      "target": "Editor/DoomIwadVerify.cs",
+      "sha256": "0683934350748154b566d3ed1d56034342e6aa8af50d232c42324170c9ec3bd1"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomIwadVerify.cs.meta",
+      "target": "Editor/DoomIwadVerify.cs.meta",
+      "sha256": "d11a6f695c83021d707a692b4eaaf2626a8388cee8019bf073e4d31cc50cbffc"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomLicenseBoardBuild.cs",
+      "target": "Editor/DoomLicenseBoardBuild.cs",
+      "sha256": "1194cae6970ea1ddd94dce5bf89172dea4e77f9a1caf8e33e8791a822ddb3e68"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomLicenseBoardBuild.cs.meta",
+      "target": "Editor/DoomLicenseBoardBuild.cs.meta",
+      "sha256": "d2b4635654d0cd6ad680139f390f1d534142060c2c1b8c3cd5283fa1b361743d"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomLicenseFont.cs",
+      "target": "Editor/DoomLicenseFont.cs",
+      "sha256": "4a4a6fa805c688ec81e3365f314995dc5d4ca70aa28fc56a79c93ed5af81d1f8"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomLicenseFont.cs.meta",
+      "target": "Editor/DoomLicenseFont.cs.meta",
+      "sha256": "c9196217021d566e35b12a8ae7e152baba8d756f69aad8bcd79e176c442eaa25"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomManaged.cs",
+      "target": "Editor/DoomManaged.cs",
+      "sha256": "295878fa309bb2e08dac527eecc170743541cc81aacc8ca577aebc0a348b2c8c"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomManaged.cs.meta",
+      "target": "Editor/DoomManaged.cs.meta",
+      "sha256": "5579377a543493d1ad6948b67f1b5e6e56e53fcfc5af7e4e605021a46e9750d2"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomMulhProbe.cs",
+      "target": "Editor/DoomMulhProbe.cs",
+      "sha256": "0ae5b915a8872534099a33804e9aef5b74c3b9259d433ed94979dd44a1b5251b"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomMulhProbe.cs.meta",
+      "target": "Editor/DoomMulhProbe.cs.meta",
+      "sha256": "57e1a519040bba392042cefaab7b1addb15b08c073e0f9c580ab781ef411abac"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomMulhProbe.shader.txt",
+      "target": "Editor/DoomMulhProbe.shader.txt",
+      "sha256": "6825d77f0216865d51d7302cacd463d7c671d2f6f321418e84bfcbe181a79971"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomMulhProbe.shader.txt.meta",
+      "target": "Editor/DoomMulhProbe.shader.txt.meta",
+      "sha256": "71ee5b8ece837c461a0da50cbb1e124669a7002fa943a1e159c01b2eef16fd0c"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomSceneValidation.cs",
+      "target": "Editor/DoomSceneValidation.cs",
+      "sha256": "031cd4d5ffb4879b9c8fa34a4f45949bf21560338e0d6948cfdc1eeeda058cf1"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomSceneValidation.cs.meta",
+      "target": "Editor/DoomSceneValidation.cs.meta",
+      "sha256": "68255474d5af25116e3a007f8557b3ad945cf53b8d404da0d563ee8ae56ef3e9"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomStateProbe.shader",
+      "target": "Editor/DoomStateProbe.shader",
+      "sha256": "9f889ac9c8c66f78a8270b13f4b797e6810f88d185ff5a36555f61931e33c729"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomStateProbe.shader.meta",
+      "target": "Editor/DoomStateProbe.shader.meta",
+      "sha256": "dbb6b46ecf64cf21a4596e7165ce9e60378345123fd325d6c1b35b2933104e99"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomTimeProbe.shader",
+      "target": "Editor/DoomTimeProbe.shader",
+      "sha256": "a4790631f7022cd827095b9b79f2b6fcde7cf69e17c227a4a4da8a62a1b35a56"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomTimeProbe.shader.meta",
+      "target": "Editor/DoomTimeProbe.shader.meta",
+      "sha256": "58313bb1eb719d8e47cdadaa59bf322684602d08b82fa6deed76a88733a3c4bd"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomVerify.cs",
+      "target": "Editor/DoomVerify.cs",
+      "sha256": "4824f6f462d30b8f11f97fa0e177ddc0575922882bef46e936b5594b615742a2"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomVerify.cs.meta",
+      "target": "Editor/DoomVerify.cs.meta",
+      "sha256": "27ca0ffbb89febeb9424067f91c8331cf1ec473e1878ff59664a567b282bb555"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomWorldErrorTests.cs",
+      "target": "Editor/DoomWorldErrorTests.cs",
+      "sha256": "6e3267904633023c2adeb90d73bde2cacf68d1e1c9d0776310d68948c4834838"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomWorldErrorTests.cs.meta",
+      "target": "Editor/DoomWorldErrorTests.cs.meta",
+      "sha256": "d20911c829534637925771705bae0f0cfa674563c79f78635a5e134fb7bac539"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomWorldTextures.cs",
+      "target": "Editor/DoomWorldTextures.cs",
+      "sha256": "83f18f1495f328c4d00e52e0090f57bc2db568bd986b2dcd24050c631b4df783"
+    },
+    {
+      "source": "Assets/Doom/Editor/DoomWorldTextures.cs.meta",
+      "target": "Editor/DoomWorldTextures.cs.meta",
+      "sha256": "09e14067e7f78c110e172801a46b07fd35f7732e1e43d20ab3115075fb12dc01"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Background.mat",
+      "target": "Templates~/Doom/LicenseBoard/Background.mat",
+      "sha256": "4761877afc21809522158ff273acfb49dc64e86cdde4f0847600683ac0231a85"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Background.mat.meta",
+      "target": "Templates~/Doom/LicenseBoard/Background.mat.meta",
+      "sha256": "aecc528135dafe5d52ac59a1a5a3fd136930abad5eeb4252ff52d2381d418c4f"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Button.mat",
+      "target": "Templates~/Doom/LicenseBoard/Button.mat",
+      "sha256": "4144141f1f4044a708f0ec494e74c365145b22731877a4c3719d5dc86f36f345"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Button.mat.meta",
+      "target": "Templates~/Doom/LicenseBoard/Button.mat.meta",
+      "sha256": "fbd85cf64f7c87d8ec54219e52d7e34cfc39f2c1f3d38a27e66c016cc4e31814"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/documents.json",
+      "target": "Templates~/Doom/LicenseBoard/documents.json",
+      "sha256": "a7a5cac3a8183533e7758c6bcb55183f3d5eb54e8ba52cb7ac854b870545a5b6"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/documents.json.meta",
+      "target": "Templates~/Doom/LicenseBoard/documents.json.meta",
+      "sha256": "fb76f7e07c312e4fe37799b334f6ba1081f5df31ea4f34d9219169702266526f"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents.meta",
+      "sha256": "c81da4e71f249fe437eee5daa964f0a7a1c0219e7a027a6258d36050afd5e471"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/DoomLicenseBoard.asset",
+      "target": "Doom/LicenseBoard/DoomLicenseBoard.asset",
+      "sha256": "dff453aba12255653263e1bee563d7872a0574c8e369c27544f653ee830829ad"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/DoomLicenseBoard.asset.meta",
+      "target": "Doom/LicenseBoard/DoomLicenseBoard.asset.meta",
+      "sha256": "a1d38c930d0ff4ffacef5de06fb9573156851a683d871bd90155df250551a006"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/DoomLicenseButton.asset",
+      "target": "Doom/LicenseBoard/DoomLicenseButton.asset",
+      "sha256": "1b6e6b17f35de293e220ca960af5ce84a472e623e8a610a34ade613db2a5155d"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/DoomLicenseButton.asset.meta",
+      "target": "Doom/LicenseBoard/DoomLicenseButton.asset.meta",
+      "sha256": "c6a7f636c9934259d9e339beecd1abb1dc8e044bfc44cd2b1ec1ad0c463a029c"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/LicenseSDF.asset",
+      "target": "Templates~/Doom/LicenseBoard/LicenseSDF.asset",
+      "sha256": "92e49e6ade78fb64b31d6938765980fb15f6ced7116609ee1e02c5c08b236d2d"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/LicenseSDF.asset.meta",
+      "target": "Templates~/Doom/LicenseBoard/LicenseSDF.asset.meta",
+      "sha256": "00e3eec16e7f30e665a4d751c142591dca1b7987bda80791a115bbca7b85dc57"
+    },
+    {
+      "source": "Assets/Doom/Runtime/DoomControl.cs",
+      "target": "Doom/Runtime/DoomControl.cs",
+      "sha256": "0f55a1ad6766689b3adfcbd912b4081a213f9689930e239cd5179559f68f5aaf"
+    },
+    {
+      "source": "Assets/Doom/Runtime/DoomControl.cs.meta",
+      "target": "Doom/Runtime/DoomControl.cs.meta",
+      "sha256": "6a696474c69a8f4d05683cca861b67cd58793ecbd0df3103d04490f26fdc5553"
+    },
+    {
+      "source": "Assets/Doom/Runtime/DoomInputAck.cs",
+      "target": "Doom/Runtime/DoomInputAck.cs",
+      "sha256": "d2f8768b131e745a4c6ecacc4eca28259387ef8a2c315dfa6b994bbafb472f90"
+    },
+    {
+      "source": "Assets/Doom/Runtime/DoomInputAck.cs.meta",
+      "target": "Doom/Runtime/DoomInputAck.cs.meta",
+      "sha256": "e98ef80ed2b7aa08f4ae8209468bbf839be4dfc7cabdb7588f5a8881668faea8"
+    },
+    {
+      "source": "Assets/Doom/Runtime/DoomKeyButton.cs",
+      "target": "Doom/Runtime/DoomKeyButton.cs",
+      "sha256": "32f43a795ef5253640cc6d0885d5ec99806dd8f38cfb639249f463b920a24cf6"
+    },
+    {
+      "source": "Assets/Doom/Runtime/DoomKeyButton.cs.meta",
+      "target": "Doom/Runtime/DoomKeyButton.cs.meta",
+      "sha256": "28afdb28982f80a307cb60a929427902b393554cb3bc7540b612db2d7729fa79"
+    },
+    {
+      "source": "Assets/Doom/Runtime/DoomLicenseBoard.cs",
+      "target": "Doom/Runtime/DoomLicenseBoard.cs",
+      "sha256": "89e51f5037c2d3c12886b6e6708faa8a57b712d6d164645aab35c2d94be08d78"
+    },
+    {
+      "source": "Assets/Doom/Runtime/DoomLicenseBoard.cs.meta",
+      "target": "Doom/Runtime/DoomLicenseBoard.cs.meta",
+      "sha256": "e850a61d04f979d9b20c12bcb04a140c7ea58eea38275defe60b11b8c0fd354f"
+    },
+    {
+      "source": "Assets/Doom/Runtime/DoomLicenseButton.cs",
+      "target": "Doom/Runtime/DoomLicenseButton.cs",
+      "sha256": "d08b9cf28b5042409be5be3487aa0218273776eb5d1a3e9a05248816813f3f95"
+    },
+    {
+      "source": "Assets/Doom/Runtime/DoomLicenseButton.cs.meta",
+      "target": "Doom/Runtime/DoomLicenseButton.cs.meta",
+      "sha256": "0080960cfe0e247fca144c6e9c8ff6d3cf042c937c23e4d9a2108d233f82e3e6"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/00.txt",
+      "target": "Templates~/Doom/LicenseBoard/Documents/00.txt",
+      "sha256": "ef784707437b0ea2d54d3847b004686696c0c69e2bd085a09a54c2c3c3ae4b39"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/00.txt.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents/00.txt.meta",
+      "sha256": "afee70f90ba93126939cd22b39b40baeb2509864f8f5645f55cf97187f78005f"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/01.txt",
+      "target": "Templates~/Doom/LicenseBoard/Documents/01.txt",
+      "sha256": "7c62f2c520769c798774f416637eec4921e5f0aafdac1245ae7c8a8cf65fe102"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/01.txt.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents/01.txt.meta",
+      "sha256": "c83eca3fe0cf277cf584e3578ea40977431a8fa3ca7033c8a1d356ceae1d47fe"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/02.txt",
+      "target": "Templates~/Doom/LicenseBoard/Documents/02.txt",
+      "sha256": "72364333d295c598d75ef9553d3b3661ad0b60e27271c87b7637c74b2f46918a"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/02.txt.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents/02.txt.meta",
+      "sha256": "621252dd237cbe01dd673a8f3852b2187fc1fd3e451d9bec82e46b77d4e6a15a"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/03.txt",
+      "target": "Templates~/Doom/LicenseBoard/Documents/03.txt",
+      "sha256": "2bb77677bbc4e587bba44ccb6514ee0f5397c7bb8ae9580b9188d3d6a57c0a31"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/03.txt.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents/03.txt.meta",
+      "sha256": "be423042af7e17914b360d5362e95ae6871dfe03f43ee4e5fe5f3c8624f8320e"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/04.txt",
+      "target": "Templates~/Doom/LicenseBoard/Documents/04.txt",
+      "sha256": "535dcbe5209421fd7e63603161ea5d1ba539c30e2e6a74bbbad479170a65eaf8"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/04.txt.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents/04.txt.meta",
+      "sha256": "6dbfd824e90f1a016abc8946cbd8c13dc1b11c091fa1b20941514627430ba599"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/05.txt",
+      "target": "Templates~/Doom/LicenseBoard/Documents/05.txt",
+      "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/05.txt.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents/05.txt.meta",
+      "sha256": "417987287866580f0a27250a6ad2406f7635d87ab7d86304548842e175fa16f5"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/06.txt",
+      "target": "Templates~/Doom/LicenseBoard/Documents/06.txt",
+      "sha256": "fb5a425bd3b3cd6071a3a9aff9909a859e7c1158d54d32e07658398cd67eb6a0"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/06.txt.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents/06.txt.meta",
+      "sha256": "062b5540e1fa40ff6f9a945f399bfb53e22647a13e12270e88217d786bff8a78"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/07.txt",
+      "target": "Templates~/Doom/LicenseBoard/Documents/07.txt",
+      "sha256": "f6b78c087c3ebdf0f3c13415070dd480a3f35d8fc76f3d02180a407c1c812f79"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/07.txt.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents/07.txt.meta",
+      "sha256": "692fd981c3b3107db8d11bda9061834120fa2721a4fecf55ebbf0a53b5e6fbb6"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/08.txt",
+      "target": "Templates~/Doom/LicenseBoard/Documents/08.txt",
+      "sha256": "8e378ab93586eb55135d3bc119cce787f7324f48394777d00c34fa3d0be3303f"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/08.txt.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents/08.txt.meta",
+      "sha256": "ac8bbedcf2c79de66dabe3504df51620ef59c7885638a345a74167faae7d84b2"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/09.txt",
+      "target": "Templates~/Doom/LicenseBoard/Documents/09.txt",
+      "sha256": "bbfc9843646d483c334664f651c208b9839626891d8f17604db2146962f43548"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/09.txt.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents/09.txt.meta",
+      "sha256": "13cc2aeb995bf6a40361a9d81580e9a2cee90f83361e2a8ff2f9e3549c59f65f"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/10.txt",
+      "target": "Templates~/Doom/LicenseBoard/Documents/10.txt",
+      "sha256": "82d13fb1bf6bb162629deeea9eb9c117e74548d3b707e478967691fe79a68e21"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/10.txt.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents/10.txt.meta",
+      "sha256": "6af44e93d6e31afaaeff2f6c58475fd14c3177201eb76818d889e5f65eda5343"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/11.txt",
+      "target": "Templates~/Doom/LicenseBoard/Documents/11.txt",
+      "sha256": "87ef9b9a7d4d83f10c0e4d839dc35fae7e6741f0715618c6a294fc9cd1d3e2e2"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/11.txt.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents/11.txt.meta",
+      "sha256": "aa012a2477f47bdf2717b5d11a6670d88477e042b198d4c5e7d15c8724635118"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/12.txt",
+      "target": "Templates~/Doom/LicenseBoard/Documents/12.txt",
+      "sha256": "3746facc32c7217f81261889cefe6ab241ce4b745eee5845c9b1ea8f00bcd935"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/12.txt.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents/12.txt.meta",
+      "sha256": "68d2ce3c9d39dce8b2995f5e094f656a009270bdc3806f26e0818923d570a6fc"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/13.txt",
+      "target": "Templates~/Doom/LicenseBoard/Documents/13.txt",
+      "sha256": "8e8c8829fe027f3af18125fe3f62645affc73de3a46cc37fc25a272db62f5df1"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/13.txt.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents/13.txt.meta",
+      "sha256": "b9ecbc9b159ac433cdfa4050a22fd4107d922a89ac2219f9b3f4d1df560e1966"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/14.txt",
+      "target": "Templates~/Doom/LicenseBoard/Documents/14.txt",
+      "sha256": "25dda933e10d9873327b2cc337cfb6edf1bb4d7e6714484a7505abcce1ed355f"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/14.txt.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents/14.txt.meta",
+      "sha256": "765d85cb627d7745e7a7823df5f527866f430a403c3b9b73810759ec9218e362"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/15.txt",
+      "target": "Templates~/Doom/LicenseBoard/Documents/15.txt",
+      "sha256": "2b29ea77d7657d49bd7059c7904a60a62f0f7fa90c443398545ec1e734f8b6ca"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/15.txt.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents/15.txt.meta",
+      "sha256": "a5270819fb90f076ce514fca8c96fe1b8fff214d734abcbb2888577c0d6ee8a5"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/16.txt",
+      "target": "Templates~/Doom/LicenseBoard/Documents/16.txt",
+      "sha256": "967939c61a1ec8f1bc1580cd9a1d9fdd79b3938314375d336e05b4983c08b136"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/16.txt.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents/16.txt.meta",
+      "sha256": "dd6ec9f09c59b80b445732ba722cb3d56852ed77d2e6cb5a602a151668eb0858"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/17.txt",
+      "target": "Templates~/Doom/LicenseBoard/Documents/17.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/17.txt.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents/17.txt.meta",
+      "sha256": "6d28b0f827946e005706deaf6097e6a3b0da4e78e72e7a1ead460e3bc9602306"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/18.txt",
+      "target": "Templates~/Doom/LicenseBoard/Documents/18.txt",
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    {
+      "source": "Assets/Doom/LicenseBoard/Documents/18.txt.meta",
+      "target": "Templates~/Doom/LicenseBoard/Documents/18.txt.meta",
+      "sha256": "afd36a24a7ee1d20d12b05f51cc11261654f3801362a2fd92081bf4f1bf36eb9"
+    },
+    {
+      "source": "Assets/Doom.meta",
+      "target": "Doom.meta",
+      "sha256": "e98d482017cbeca8e6f160993aeda5a7b7cdc749d2bde6bf62baddc2854e7248"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial.meta",
+      "target": "ThirdParty/PiMaker/Dial.meta",
+      "sha256": "d1d22f4ab5fd7ab1d4cf58146a9b167433e0da7cd23b4a24e713fd0f700ffe05"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc.meta",
+      "target": "ThirdParty/PiMaker/rvc.meta",
+      "sha256": "4d2546e3f89e71bdefd8ef369e64e2ea65c7d779381dcc5e905498ca9997fa83"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/click_sound.wav",
+      "target": "ThirdParty/PiMaker/Dial/click_sound.wav",
+      "sha256": "f69b10029cae7b9247e8eac2d4c73f126ef93b018585aae5243c41d87f6b52a7"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/click_sound.wav.meta",
+      "target": "ThirdParty/PiMaker/Dial/click_sound.wav.meta",
+      "sha256": "a64f3f103612cc1954b711b1418eaafbb2377afc2f03e96ec3398a70ea4c916c"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/Colors.png",
+      "target": "ThirdParty/PiMaker/Dial/Colors.png",
+      "sha256": "b8ddb310732e8ef1ca4fc407bc62dad6c951639ebbe7d23afcbab2aebcf5cee9"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/Colors.png.meta",
+      "target": "ThirdParty/PiMaker/Dial/Colors.png.meta",
+      "sha256": "fead134df57730f0f3781ee4d2ee0836aff96c514b6eb9303e4910d0aa319cb2"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/Dial Material.mat",
+      "target": "ThirdParty/PiMaker/Dial/Dial Material.mat",
+      "sha256": "dbe0bc99624f50e86e6b8320c024b944b5026a8fb093ae9c593471a23d282350"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/Dial Material.mat.meta",
+      "target": "ThirdParty/PiMaker/Dial/Dial Material.mat.meta",
+      "sha256": "571438b5124f4d18877f4b8071b2082fbc374c3eb37da44fa55fa9738e9e8a28"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/Dial.asset",
+      "target": "ThirdParty/PiMaker/Dial/Dial.asset",
+      "sha256": "87e0cb5e78acf5ab067a3b3439828413ffe5244e6bb251b026c0568601e13785"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/Dial.asset.meta",
+      "target": "ThirdParty/PiMaker/Dial/Dial.asset.meta",
+      "sha256": "3136d76384a3312dee268d7bad5c43d2714ba88f6052ff67ef8a6864bd07a486"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/Dial.cs",
+      "target": "ThirdParty/PiMaker/Dial/Dial.cs",
+      "sha256": "ff5b491f8a455ba5f0b4652cb355a3d2136e7fd6e2d9f78712ed3b119bf0cc29"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/Dial.cs.meta",
+      "target": "ThirdParty/PiMaker/Dial/Dial.cs.meta",
+      "sha256": "a39848aa3e2f51ab4552c2ba759221c20d5a8a9b2076110c56f9cccd3bf96687"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/dial2_fbx.fbx",
+      "target": "ThirdParty/PiMaker/Dial/dial2_fbx.fbx",
+      "sha256": "c288e81fbea35270bb1594f18cb9baebe5c82c21d308bb866c4bf12a50cf98ec"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/dial2_fbx.fbx.meta",
+      "target": "ThirdParty/PiMaker/Dial/dial2_fbx.fbx.meta",
+      "sha256": "555fbb606f7aae117c2b72bb71915b536e28d95d2d323b5280e347ae25fb2c2d"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/dial3_fbx.fbx",
+      "target": "ThirdParty/PiMaker/Dial/dial3_fbx.fbx",
+      "sha256": "a5cd1e7a71e3bb46594a5c28269f3489adeb9d41c3dd8735caef65466ba6a3a8"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/dial3_fbx.fbx.meta",
+      "target": "ThirdParty/PiMaker/Dial/dial3_fbx.fbx.meta",
+      "sha256": "a004a578814db32156c1e0214c4cc07108d38d3260c66ce0dafee643600b636b"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/DialDesktopInteractor.asset",
+      "target": "ThirdParty/PiMaker/Dial/DialDesktopInteractor.asset",
+      "sha256": "3df87a6182fae62d95f1bed3aec6dff5a384a5f1dd9a81535591567368b1f220"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/DialDesktopInteractor.asset.meta",
+      "target": "ThirdParty/PiMaker/Dial/DialDesktopInteractor.asset.meta",
+      "sha256": "ca79fcbb05124c5a2927bc0f3567cec76719258fd370d2d6f0a1685ffe911301"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/DialDesktopInteractor.cs",
+      "target": "ThirdParty/PiMaker/Dial/DialDesktopInteractor.cs",
+      "sha256": "7a51cd3cb7622683f0445a64851dc55e58a7c1c1cec03f480755dad9d14d1b80"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/DialDesktopInteractor.cs.meta",
+      "target": "ThirdParty/PiMaker/Dial/DialDesktopInteractor.cs.meta",
+      "sha256": "c2538650e48d7b0c8209e9a3f13a8fa2fe77764a576df5efcd270a4f8159baf2"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/DialVRInteractor.asset",
+      "target": "ThirdParty/PiMaker/Dial/DialVRInteractor.asset",
+      "sha256": "a2c0ca4c55cab039794620624d34d3bc326d5201d79c8567a558ccf2170feffc"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/DialVRInteractor.asset.meta",
+      "target": "ThirdParty/PiMaker/Dial/DialVRInteractor.asset.meta",
+      "sha256": "5d81f09d8a09b4a69c675adcae6499a29551e04a92e5a16cbc875b0aba3a7daf"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/DialVRInteractor.cs",
+      "target": "ThirdParty/PiMaker/Dial/DialVRInteractor.cs",
+      "sha256": "972766d53869ab8f90e5b73ccf7c5dc40274abc1826c8685483fc47c014aa766"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/DialVRInteractor.cs.meta",
+      "target": "ThirdParty/PiMaker/Dial/DialVRInteractor.cs.meta",
+      "sha256": "9df8ee4a5d30a274195063ca78721146cab30459f7d8f210f22b6ea134d9b00c"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/dial_fbx.fbx",
+      "target": "ThirdParty/PiMaker/Dial/dial_fbx.fbx",
+      "sha256": "e72a2531262f0b0ab6ddf4eea2b589e7870aef87bb435436b71d98bfe03ad424"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/dial_fbx.fbx.meta",
+      "target": "ThirdParty/PiMaker/Dial/dial_fbx.fbx.meta",
+      "sha256": "3d04f9f243b1d295221f0d385f14eb05c8d4b0e4379f50e4c183e9b391bcae2e"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/LICENSE-CC-BY-NC-SA-2.0.txt",
+      "target": "ThirdParty/PiMaker/Dial/LICENSE-CC-BY-NC-SA-2.0.txt",
+      "sha256": "ce1a3044a216bdea396ff375bb6ab402aa4dffc09f1c4513a40c866f71ef24f5"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/LICENSE-CC-BY-NC-SA-2.0.txt.meta",
+      "target": "ThirdParty/PiMaker/Dial/LICENSE-CC-BY-NC-SA-2.0.txt.meta",
+      "sha256": "389dc1886b2228be86d9715fbbd75fe1e490dc0e2f05deaa9ddc2f7d84955327"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/PROVENANCE.md",
+      "target": "ThirdParty/PiMaker/Dial/PROVENANCE.md",
+      "sha256": "20a74bfd191004e3d0479e4f3036d215e6779546249d4226831f9b47951c4d4f"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/PROVENANCE.md.meta",
+      "target": "ThirdParty/PiMaker/Dial/PROVENANCE.md.meta",
+      "sha256": "8e09b04f539e0113fd5dcd6573996fe239acd5faae96793c39ff3aa0f3ea5588"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/_PREFAB.prefab",
+      "target": "Samples~/OriginalDial/_PREFAB.prefab",
+      "sha256": "36e7299e5fcdf4e0f988d640ca023b2890095a1b6925e463f85c11c4ef5c06fd"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/Dial/_PREFAB.prefab.meta",
+      "target": "Samples~/OriginalDial/_PREFAB.prefab.meta",
+      "sha256": "a7ef3d2650bc55aed25bc536be41548ae334f42c0a74e5e33328f9fa6c4dd954"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/DebugPrintmat.mat",
+      "target": "ThirdParty/PiMaker/rvc/DebugPrintmat.mat",
+      "sha256": "fbd85f424efb25bd8f92e109400ab2e1f1cbcb8312dc4b5cca85076fc723e576"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/DebugPrintmat.mat.meta",
+      "target": "ThirdParty/PiMaker/rvc/DebugPrintmat.mat.meta",
+      "sha256": "751e87da9aaab7798d193d64e0fb1ceb34c291d3b5ef59e2fb221f845758fbda"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/debug_cam_mat.mat",
+      "target": "ThirdParty/PiMaker/rvc/debug_cam_mat.mat",
+      "sha256": "caee8b8f2522e8b3f008d0d88c1c07b996dd40e939a9ad9cef75cbffc4216c49"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/debug_cam_mat.mat.meta",
+      "target": "ThirdParty/PiMaker/rvc/debug_cam_mat.mat.meta",
+      "sha256": "92cb84ab340374860a304825c80b4bbe62c5efd86a2875acf32e932ccdb4cebe"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/debug_cam_rt.renderTexture",
+      "target": "ThirdParty/PiMaker/rvc/debug_cam_rt.renderTexture",
+      "sha256": "11be877638fc8f5a915d61e9939b1b59c9ac9a1b12d19e73e96c0ccccbe7172c"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/debug_cam_rt.renderTexture.meta",
+      "target": "ThirdParty/PiMaker/rvc/debug_cam_rt.renderTexture.meta",
+      "sha256": "0026bf0ef44e048bef1e6a27ac1f232c87d6c5577e743b988b5b8078f45f357e"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/fbexport.mat",
+      "target": "ThirdParty/PiMaker/rvc/fbexport.mat",
+      "sha256": "21dc4fa048a16c11f12692de339e08862c8d4b7a1bb34197b6ff42289cee2257"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/fbexport.mat.meta",
+      "target": "ThirdParty/PiMaker/rvc/fbexport.mat.meta",
+      "sha256": "68762702546d34f5a38cbfab442da674f364851de80a5b28ee4cf1822592ddb5"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/fb_crt.asset",
+      "target": "ThirdParty/PiMaker/rvc/fb_crt.asset",
+      "sha256": "d6e1b5c2d81329a5be14902336ed849e781e9089d3b5aeb9cd5943feb47ab135"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/fb_crt.asset.meta",
+      "target": "ThirdParty/PiMaker/rvc/fb_crt.asset.meta",
+      "sha256": "0866c7017ec753bdae4cfe4ab60de0fa8f7b0a37bd4a1da429bb6a17b0d68476"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/fb_display.mat",
+      "target": "ThirdParty/PiMaker/rvc/fb_display.mat",
+      "sha256": "e4cc427a261c76a049099251bf3a4358e8367833d75471f2666c2eddc0df8f56"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/fb_display.mat.meta",
+      "target": "ThirdParty/PiMaker/rvc/fb_display.mat.meta",
+      "sha256": "f26607a0ba6704c69b9466578fe9325f5da79402fc5a3f2368f0437c2eb56a4d"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/fb_mat.mat",
+      "target": "ThirdParty/PiMaker/rvc/fb_mat.mat",
+      "sha256": "bf12037f17b76cc672a5951d9b19d052e7a774605779a413741eaaf201b70294"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/fb_mat.mat.meta",
+      "target": "ThirdParty/PiMaker/rvc/fb_mat.mat.meta",
+      "sha256": "a148f11d8f9a0a1acdc5b5b8b3701598258116eee4929453dd04ede292dd3755"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/KeyboardManager2.asset",
+      "target": "ThirdParty/PiMaker/rvc/KeyboardManager2.asset",
+      "sha256": "a1e4decf9fc40a5d7df7c24c20944d480abb19c911df7c60c5c0a25a0ae2efa7"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/KeyboardManager2.asset.meta",
+      "target": "ThirdParty/PiMaker/rvc/KeyboardManager2.asset.meta",
+      "sha256": "330ed8fdd023aa0ec18bda4aea24c6cf88dd486a2588f0d9c33fc42597f22a60"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/KeyboardManager2.cs",
+      "target": "ThirdParty/PiMaker/rvc/KeyboardManager2.cs",
+      "sha256": "8b3f3709be0e63bcddb2a9bb2c137411a347aa055b451784ec146cb5b8ae97dc"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/KeyboardManager2.cs.meta",
+      "target": "ThirdParty/PiMaker/rvc/KeyboardManager2.cs.meta",
+      "sha256": "721d48e30fa136dcac7dc0558123532b2f611ce8d3c5ceac3a9467d711681130"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/LICENSE",
+      "target": "ThirdParty/PiMaker/rvc/LICENSE",
+      "sha256": "817ffa6243111482e0d599df2f4f3878788f4e6fa4c46edc04b7243e7234c857"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/LICENSE.meta",
+      "target": "ThirdParty/PiMaker/rvc/LICENSE.meta",
+      "sha256": "0d8e49ea9a8f527ce36defe8535ce065cdb3f249d45fc9a43553d1b78acdde9a"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/NixControl.asset",
+      "target": "ThirdParty/PiMaker/rvc/NixControl.asset",
+      "sha256": "f6e8b50cdc693657ab6a070df2b8f50e4118677e7049f3b082d057bada962726"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/NixControl.asset.meta",
+      "target": "ThirdParty/PiMaker/rvc/NixControl.asset.meta",
+      "sha256": "0c4283fa3900a82b7020818e20d2f3b9cff1696a6e1c6b70f291641923a37c22"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/NixControl.cs",
+      "target": "ThirdParty/PiMaker/rvc/NixControl.cs",
+      "sha256": "ee257165aca6b6c669283b0b3ebed1f437918524aa5f2cea799fe21bc383fa08"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/NixControl.cs.meta",
+      "target": "ThirdParty/PiMaker/rvc/NixControl.cs.meta",
+      "sha256": "4bfa12d40205c0c5aab2281f3e2ccdbb19ba312c26b1b9712c9a43e92f399b8f"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/NixDebug.asset",
+      "target": "ThirdParty/PiMaker/rvc/NixDebug.asset",
+      "sha256": "6974d1259b5f45f30bc08b687a5c6f5ab0d898bbbcd74a41f3a8a1673c7fd48c"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/NixDebug.asset.meta",
+      "target": "ThirdParty/PiMaker/rvc/NixDebug.asset.meta",
+      "sha256": "890831ed139fd22db85c9ef7431833e78b57fe0204da39ff3983cbca78d4a47b"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/NixDebug.cs",
+      "target": "ThirdParty/PiMaker/rvc/NixDebug.cs",
+      "sha256": "18e7b4713c9a06181d1f6621893c6fa4389c3fdbb9503c3385a47c30a9924fd0"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/NixDebug.cs.meta",
+      "target": "ThirdParty/PiMaker/rvc/NixDebug.cs.meta",
+      "sha256": "0c44dd3d57c6660d3f12548d53e32e6efdf64d741550922dc81204f1b2a9106b"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/NixProgramLoader.asset",
+      "target": "ThirdParty/PiMaker/rvc/NixProgramLoader.asset",
+      "sha256": "f3bd8c84cb0b67394999b25b5c841f65aa55b1409c56bb81c294154dd794548d"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/NixProgramLoader.asset.meta",
+      "target": "ThirdParty/PiMaker/rvc/NixProgramLoader.asset.meta",
+      "sha256": "47338fc7fd25546ead2901f45cf9f8dce00a0e5dfd18598f755bd13fd9635ae2"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/NixProgramLoader.cs",
+      "target": "ThirdParty/PiMaker/rvc/NixProgramLoader.cs",
+      "sha256": "6c8bba2426d5d97c4d8d01762510e4d176d2927ce0776eb542562dd9d6c6bd14"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/NixProgramLoader.cs.meta",
+      "target": "ThirdParty/PiMaker/rvc/NixProgramLoader.cs.meta",
+      "sha256": "1f406cdfd4d41421cda91540e0192f3d51119f9495c8eaba9686f1003109688f"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/NixStep.asset",
+      "target": "ThirdParty/PiMaker/rvc/NixStep.asset",
+      "sha256": "26a9a1d1c865b7a82fd365339af01c97dd32f880ad6f9c6e25a230bcb2c8d7a0"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/NixStep.asset.meta",
+      "target": "ThirdParty/PiMaker/rvc/NixStep.asset.meta",
+      "sha256": "2ef384e045e3c3b4bbf95666ca7bd7eab38f5c14c06d3a950e08edd78daf539a"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/NixStep.cs",
+      "target": "ThirdParty/PiMaker/rvc/NixStep.cs",
+      "sha256": "7c4a9068e544d9b7b23c5e557e60f65b11842d95aabfbbd78f11a41dce24b2e3"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/NixStep.cs.meta",
+      "target": "ThirdParty/PiMaker/rvc/NixStep.cs.meta",
+      "sha256": "3919584e955782b80a6e94e607c85510db0d371e675418ebc1dcdac0a744f251"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/README.md",
+      "target": "ThirdParty/PiMaker/rvc/README.md",
+      "sha256": "0cf2c967ec19beda82b4257c0555e240f367281c65406f76d2e4ec8fc1cc100a"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/README.md.meta",
+      "target": "ThirdParty/PiMaker/rvc/README.md.meta",
+      "sha256": "6ba49cc2012ce620b30f54615b8eab3336ab536cc5ccc17452985dc1e679d7f7"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc.meta",
+      "sha256": "fc4c4e761c1ae209fc677bd2746d145d6cc4083402cad0b532f5d36885c00e07"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/RvcRunSwitch.asset",
+      "target": "ThirdParty/PiMaker/rvc/RvcRunSwitch.asset",
+      "sha256": "d934e351c3dae6da79d3e23acd527d8d68ce1097d50ccf5fd4574bf1dad5da4b"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/RvcRunSwitch.asset.meta",
+      "target": "ThirdParty/PiMaker/rvc/RvcRunSwitch.asset.meta",
+      "sha256": "b079777e3302ca8135d35026db51d099477c7db703bd1919e65b5bed03ae760e"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/RvcRunSwitch.cs",
+      "target": "ThirdParty/PiMaker/rvc/RvcRunSwitch.cs",
+      "sha256": "c7b1942285b8ee5b3ecbceef8ad6d144db8ba0550b4889ff2c6f402393746a24"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/RvcRunSwitch.cs.meta",
+      "target": "ThirdParty/PiMaker/rvc/RvcRunSwitch.cs.meta",
+      "sha256": "d346112d0afa1bf1bc9863da3eb5f4c17faabe6590bbf5d4847695d63168b41e"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/ScratchFBRT.renderTexture",
+      "target": "ThirdParty/PiMaker/rvc/ScratchFBRT.renderTexture",
+      "sha256": "871eee745e928f72497195ccbf22107b0008ea26da25c51ba0702a429c2a7942"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/ScratchFBRT.renderTexture.meta",
+      "target": "ThirdParty/PiMaker/rvc/ScratchFBRT.renderTexture.meta",
+      "sha256": "083eba32097ccf95440c8067576701a70844a2de045bd22e3a61216a01679040"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/vm_export_display.mat",
+      "target": "ThirdParty/PiMaker/rvc/vm_export_display.mat",
+      "sha256": "530efd9e5f17c7e35b5f4d334dba8934a9dd8ce3458d0fba3c65476b6bfd035b"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/vm_export_display.mat.meta",
+      "target": "ThirdParty/PiMaker/rvc/vm_export_display.mat.meta",
+      "sha256": "1ac34a9603166d2153105293c016c6aaee66c25c3c595917adce9bd974359c43"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/vm_mat.mat",
+      "target": "ThirdParty/PiMaker/rvc/vm_mat.mat",
+      "sha256": "afbb5b14e857ef098db6a590e554f731cd14da3c00d09031ab98ce7f51bcbf43"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/vm_mat.mat.meta",
+      "target": "ThirdParty/PiMaker/rvc/vm_mat.mat.meta",
+      "sha256": "227a4ed839f03c6e84fb22bd6cc9b44bcb3434aa136de693e4dc6bc5e90f920e"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/vm_state_crt.asset",
+      "target": "ThirdParty/PiMaker/rvc/vm_state_crt.asset",
+      "sha256": "3a1afefda46bc170498e3253520762b15faeb2effc7814b56b8ce3198c61ae5f"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/vm_state_crt.asset.meta",
+      "target": "ThirdParty/PiMaker/rvc/vm_state_crt.asset.meta",
+      "sha256": "ebd7bc55cd176f08d071e11280389720fb602c0e189a87173ceb344eb7cd9238"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/vm_state_display_mat.mat",
+      "target": "ThirdParty/PiMaker/rvc/vm_state_display_mat.mat",
+      "sha256": "e8ca60dced81512aec47fa11f788dfa4421c387df9912a558fb0ed8d9057e0f2"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/vm_state_display_mat.mat.meta",
+      "target": "ThirdParty/PiMaker/rvc/vm_state_display_mat.mat.meta",
+      "sha256": "a5f602304086366cdf43e7d0f5bacfecaec507ef914cdf54d6b79b14215d27d5"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/BinaryTextureImporter.preset",
+      "target": "ThirdParty/PiMaker/rvc/rvc/BinaryTextureImporter.preset",
+      "sha256": "51aa3ca9ea939fa964bf366e13aea8725256d9494b2dec87cbb20572f2332a6f"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/BinaryTextureImporter.preset.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/BinaryTextureImporter.preset.meta",
+      "sha256": "d2239635ba6ec75f229f1ca90fbfb256d7f20a6a9bce705b8229b7b16daa8975"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/console.shader",
+      "target": "ThirdParty/PiMaker/rvc/rvc/console.shader",
+      "sha256": "c7752a01d5128d235357a00f87cc7ec5665cf91ac51ce863e051926079086601"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/console.shader.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/console.shader.meta",
+      "sha256": "a4ce2dcba2b0829ab40e09477f5e778f300a25309e8c555f87cf7e2943b51de8"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/crt.cginc",
+      "target": "ThirdParty/PiMaker/rvc/rvc/crt.cginc",
+      "sha256": "34b7d14d1c6370e39f0bf0a6362ab59bfe8537651ac4c56625f071670ce27779"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/crt.cginc.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/crt.cginc.meta",
+      "sha256": "91b3b088507b8f26a8cc9da38b42d3a152b83ed1864a2aa9f36f2a4b1293a39f"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/crt_float4.cginc",
+      "target": "ThirdParty/PiMaker/rvc/rvc/crt_float4.cginc",
+      "sha256": "20d80666f27d796965ec8555566e5a62769a3189410fb32bc1235da7c32b1643"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/crt_float4.cginc.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/crt_float4.cginc.meta",
+      "sha256": "67097d6485e7e8e00d27eb57c74df04f161fc0ecbf4ce3ab30f5f1b3f7dd82a4"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/data-net.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/data-net.meta",
+      "sha256": "2c222bb1d4771a45407e9410e739c04bab4120be77cfc97a35c2e81dfd4fc351"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/data.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/data.meta",
+      "sha256": "daa4263f8f1a3576b396aa8450e545a1500841a452361ceb6d8ad4a4b0600d10"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/debug_display.shader",
+      "target": "ThirdParty/PiMaker/rvc/rvc/debug_display.shader",
+      "sha256": "98a363d95f627bd3c61dd0039529bf1902f28e21245c7e9a5c10402ad979c068"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/debug_display.shader.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/debug_display.shader.meta",
+      "sha256": "adf75bf56b38c55b3fc66f87fe57a6869409eaa0dc8171825906051cbb723191"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/display.shader",
+      "target": "ThirdParty/PiMaker/rvc/rvc/display.shader",
+      "sha256": "fb08f8169a4243c9929a4daba743d82aa47f50ec8a1bb204c73b82d3e1a05163"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/display.shader.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/display.shader.meta",
+      "sha256": "c7740f9d815c071ae361e84feeb3f99e2e8a9e22923ab934790d6f7ec6fefcb7"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/display.shader.pp",
+      "target": "ThirdParty/PiMaker/rvc/rvc/display.shader.pp",
+      "sha256": "0e929992eac15e9d91d2de201a500607bc3fe2798d367bb2d9366420ce6cf574"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/display.shader.pp.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/display.shader.pp.meta",
+      "sha256": "f5663233b996f158f801ec736bcfa7213432e36a0fb19d8e0a2490c20ccb204a"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/fbexport.shader",
+      "target": "ThirdParty/PiMaker/rvc/rvc/fbexport.shader",
+      "sha256": "fb1d4137561983aae644233b12a90b8d3bc97a24a9938ca75cbf60060ba09ed3"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/fbexport.shader.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/fbexport.shader.meta",
+      "sha256": "edc8c05a9306bd218ffe0db4af18160fb8dc292a3f4373d6bb596f4b8c77fca6"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/framebuffer.shader",
+      "target": "ThirdParty/PiMaker/rvc/rvc/framebuffer.shader",
+      "sha256": "65834a9f9ee3cfbaf27b80d73e9999728ce9e1052013cfe521b22148f6c4c5b6"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/framebuffer.shader.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/framebuffer.shader.meta",
+      "sha256": "b5058867cd7ced21979088c2b7602e52f1f82117d0ad2f8f7ce919e9cd44ec3b"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/helpers.cginc",
+      "target": "ThirdParty/PiMaker/rvc/rvc/helpers.cginc",
+      "sha256": "300635f301320cdb550cb3876787c57c1881c939063e25495c6ccaccc3ee24b4"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/helpers.cginc.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/helpers.cginc.meta",
+      "sha256": "61c26f4bce75e1e3026f8dfb1072d3244940577a5da68c7b3425fe2ce076ba98"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/main.shader",
+      "target": "ThirdParty/PiMaker/rvc/rvc/main.shader",
+      "sha256": "bf79a3435b28d9f97f8e330757cc5541ef96512f86db7e94c25b97e78feb81b7"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/main.shader.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/main.shader.meta",
+      "sha256": "3faeaad5ae542917b53f791a699e5d4103d9c769b28bd66920a39ca0a15021bb"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/SmoothPixelFont.cginc",
+      "target": "ThirdParty/PiMaker/rvc/rvc/SmoothPixelFont.cginc",
+      "sha256": "94dda61e849273b6901344add71a99303ac0572a36111dd13b76a723c6c33986"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/SmoothPixelFont.cginc.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/SmoothPixelFont.cginc.meta",
+      "sha256": "6ff04588310692343e3df32d1f6e949e8b2fe493e543cedb543fd5aa26c9f0b6"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src.meta",
+      "sha256": "2ebabd7d4cd2cecaf3e37e4d27855d08fae1070506e3e1fad2361eeff96f0a26"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/cpu.h",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/cpu.h",
+      "sha256": "12c6470cf5f657770a6dd27988aba622735b5ad52e7e103abbc11f5f06c94316"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/cpu.h.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/cpu.h.meta",
+      "sha256": "1e2c5cec07b08fc81d9a1dddb2bb2cdb0a2e4c8bf36d444d54e2d41f1e1bc1ff"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/csr.h",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/csr.h",
+      "sha256": "40ccbbad65614f0d7936054f64eab976345f30db30c7d7979f0d7870d4fec04d"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/csr.h.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/csr.h.meta",
+      "sha256": "028f2dc60f136265bbd5dacd418eff6a0c366604a2c2f29916690810eda055eb"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/csr.h.pp",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/csr.h.pp",
+      "sha256": "e3b2ca91d8d00cf72231d1ddf4db8178453288170306c90c260fcbf13a4874b6"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/csr.h.pp.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/csr.h.pp.meta",
+      "sha256": "5a9502febaac62804aacf6cf8d726d25346f85f7e5d768ff9b5c059205dd4570"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/emu.h",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/emu.h",
+      "sha256": "7f9891949cc6eb242a6b2528d4cf727e546048f67a6d05ba793de9141ba82fc4"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/emu.h.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/emu.h.meta",
+      "sha256": "7d053f5d5f8fe47dc8af0694b06b0b0799a1b717e7e951dae84104fe3a2decc1"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/fb.h",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/fb.h",
+      "sha256": "9b1e49cb0df37dc82250fa630aad8139d36d7113f192768381d221b267444a63"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/fb.h.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/fb.h.meta",
+      "sha256": "1c1738c4c04c59ef8ef8048e153fa971003837cd2a6fc2a3255f8aa75da086f8"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/fb.h.pp",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/fb.h.pp",
+      "sha256": "ccdce6e764e9b0b6fa01fd8fef5af13b5daaa28ae5fa15ac6ff6cbc179ffa148"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/fb.h.pp.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/fb.h.pp.meta",
+      "sha256": "f14f868dd44b47ef708ad9db3a7cf8699172470382cbbe5d5ec5e676675229bf"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/header.p",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/header.p",
+      "sha256": "bd2d33f6d5e5737e8c2a7fe2dbab3820108443d95490a175cec8337a1edec0ed"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/header.p.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/header.p.meta",
+      "sha256": "d09e13c997fd849b69c632035afe803545e5edbc681d11f3bd23976995c52439"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/ins.h",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/ins.h",
+      "sha256": "b4935a700fc584b5b3ea735bd1d636c7a5fbe9d1d30ffe039e7c9c8854e5064c"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/ins.h.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/ins.h.meta",
+      "sha256": "110354c6aab222fb158dd36d201ffcb0590de2638a906b2f4f42602f9b0432e1"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/mem.h",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/mem.h",
+      "sha256": "3678bd72d89d1de4a3fae415b3f697d10bf1caac3d5a08073e2d55f4f305f73b"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/mem.h.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/mem.h.meta",
+      "sha256": "9c3cd45aa7cdee805f05e3b1a5df4ae925c5c619e26026e228506b0d66943601"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/mem.h.pp",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/mem.h.pp",
+      "sha256": "7d1613ca7bbabda473515570d6aba57e2ce6476f618c23afd75e174c37b08384"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/mem.h.pp.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/mem.h.pp.meta",
+      "sha256": "4cd414e71599dabd34d2e65d19be5f8c04421d2acb26db63cb9931f6a63264ea"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/mmu.h",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/mmu.h",
+      "sha256": "8200191bc60cfed2dc3afb9a4489188e3882ab54df022480df8a5ec6b33a2435"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/mmu.h.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/mmu.h.meta",
+      "sha256": "3ee232ac97bfa60a9ef70a6f1804e2aa3139ddfb852e7fa4be86a694977cb5b7"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/trap.h",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/trap.h",
+      "sha256": "238a19adfc3bd71778d66c3963540f7394a78d08be9bf761b796e5ec58cb4769"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/trap.h.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/trap.h.meta",
+      "sha256": "5ea232fac31ddd4eb664f30271a20275166327876a78508094375afbfa8aeba6"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/types.h",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/types.h",
+      "sha256": "c74833ccdaafab675f6e011a0fe461f0f9985075eaab21de9527406d5629d546"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/types.h.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/types.h.meta",
+      "sha256": "11897ef838bd83a5140505c27e4e40fb18894bec939fad560ca186f4657365e9"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/types.h.pp",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/types.h.pp",
+      "sha256": "1b5fdc2c78e25d0d6b98068d377237b2118dd378b14dcd157291ac11ad8396dd"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/types.h.pp.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/types.h.pp.meta",
+      "sha256": "a5f84afd580b7140ae778d86db364c9f33a0df6ee979faddc887b810a4f1e610"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/uart.h",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/uart.h",
+      "sha256": "2c56e5b7809e48bead0dffb72c98a5366f60599ece46b2458f866864897cd216"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/uart.h.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/uart.h.meta",
+      "sha256": "fbb4aa1fe16272b2c9544f0c7f3e1be843c3440ac8170e7be8d58272c42d4d5b"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/uart.h.pp",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/uart.h.pp",
+      "sha256": "4e96e015b4356a7242a0778ae11ebac4030d069cf8219dbe768d9590f52810e7"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker/rvc/rvc/src/uart.h.pp.meta",
+      "target": "ThirdParty/PiMaker/rvc/rvc/src/uart.h.pp.meta",
+      "sha256": "ec2154b945b71b0850f182a3e68af20fd90b522da9f9219173f66514b1af6129"
+    },
+    {
+      "source": "Assets/ThirdParty/PiMaker.meta",
+      "target": "ThirdParty/PiMaker.meta",
+      "sha256": "2b0ddebd347f379e827174c9ccecb3d6916cffe63d0f46354fc4df687c1bd5db"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/151287bc17337e140a9267d65b905017.asset",
+      "target": "SerializedUdonPrograms/151287bc17337e140a9267d65b905017.asset",
+      "sha256": "95846cfa0287ace1861cdd115ffb75f2aa4065240b2da6eed22f1cb006c41d47"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/151287bc17337e140a9267d65b905017.asset.meta",
+      "target": "SerializedUdonPrograms/151287bc17337e140a9267d65b905017.asset.meta",
+      "sha256": "8efbbd1645fec3d32f190e93399a74e1375aa415dc7567ae14cfe6302973612a"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/2c946f88bdb3ec94593852e93003b117.asset",
+      "target": "SerializedUdonPrograms/2c946f88bdb3ec94593852e93003b117.asset",
+      "sha256": "e3a6c7b964d0835e5ddb2e3961cc8787b2b9577c1a4cc1047ca90ab3e9722774"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/2c946f88bdb3ec94593852e93003b117.asset.meta",
+      "target": "SerializedUdonPrograms/2c946f88bdb3ec94593852e93003b117.asset.meta",
+      "sha256": "7c9e76a95060b02e2db60862af8c6f6f2de5538f2e95efcc79d21f2608c91b90"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/33431044bab34ba44aa4e1ae2c039762.asset",
+      "target": "SerializedUdonPrograms/33431044bab34ba44aa4e1ae2c039762.asset",
+      "sha256": "e6d7f77476725bd0ab3a7ad7ac3cbc26a3034639ca532e1aeec1c425b4927af4"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/33431044bab34ba44aa4e1ae2c039762.asset.meta",
+      "target": "SerializedUdonPrograms/33431044bab34ba44aa4e1ae2c039762.asset.meta",
+      "sha256": "d8b2c7335c40ee53accad515a65b4e537d0635cf9e8b3ed1cc87163971e2c2a9"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/391b5e5315805c0489a96322f8580075.asset",
+      "target": "SerializedUdonPrograms/391b5e5315805c0489a96322f8580075.asset",
+      "sha256": "07cde84639c5a302f3e0fc3d15e79538cca49bac87a9f1fb5311b07c4629936c"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/391b5e5315805c0489a96322f8580075.asset.meta",
+      "target": "SerializedUdonPrograms/391b5e5315805c0489a96322f8580075.asset.meta",
+      "sha256": "a9fd76597f73b44fd0bd7b7a0829d9b5c6e2d1d374dc9aaebd943bb5ddaaff89"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/3cb94c853f50fb9408cacf57b1e2c401.asset",
+      "target": "SerializedUdonPrograms/3cb94c853f50fb9408cacf57b1e2c401.asset",
+      "sha256": "96dd1a316f994d585d17b2f9c6cac894b5d0980d3de54fc5d4449238467ac0e8"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/3cb94c853f50fb9408cacf57b1e2c401.asset.meta",
+      "target": "SerializedUdonPrograms/3cb94c853f50fb9408cacf57b1e2c401.asset.meta",
+      "sha256": "d69e50f8da5be5a17033475a03f649312bf37a2555e3f52766f4580438e22300"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/4ae4a0e40c47621469a19968e15c1a65.asset",
+      "target": "SerializedUdonPrograms/4ae4a0e40c47621469a19968e15c1a65.asset",
+      "sha256": "d5fbb76fc1afcab0c5f00220961bef10a51637dd6d42838d398ed032327315bb"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/4ae4a0e40c47621469a19968e15c1a65.asset.meta",
+      "target": "SerializedUdonPrograms/4ae4a0e40c47621469a19968e15c1a65.asset.meta",
+      "sha256": "4cda6ca4a3f34603663d0351669d7eff311e88433f7061fb66aa54ecade1e7a5"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/4e75c51d81d472842aa50936eb5ae28c.asset",
+      "target": "Samples~/OriginalUnusedBytecode/4e75c51d81d472842aa50936eb5ae28c.asset",
+      "sha256": "86a5b4d5e4984df542e08c7f8dbb807879fe3b9c1db0b76058fd1e767d7d4f28"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/4e75c51d81d472842aa50936eb5ae28c.asset.meta",
+      "target": "Samples~/OriginalUnusedBytecode/4e75c51d81d472842aa50936eb5ae28c.asset.meta",
+      "sha256": "e084137b10b969542d1ba4c4015fe24d241011cc230ec4cc69607c6505d7ca58"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/5e637afda3fb81f41a3f9aa764e3db0f.asset",
+      "target": "Samples~/OriginalUnusedBytecode/5e637afda3fb81f41a3f9aa764e3db0f.asset",
+      "sha256": "1c80c80dba6c11ba2f673e32fd79814f4052ee69daee434d6e4dc9338607405a"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/5e637afda3fb81f41a3f9aa764e3db0f.asset.meta",
+      "target": "Samples~/OriginalUnusedBytecode/5e637afda3fb81f41a3f9aa764e3db0f.asset.meta",
+      "sha256": "aeb97434fe07d30d9c20df20407a855fb3772be20ec89fa498b44ab6598039e6"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/61ea095832bbe7443816499d2e731629.asset",
+      "target": "SerializedUdonPrograms/61ea095832bbe7443816499d2e731629.asset",
+      "sha256": "b670520f26319289ae6b8bd46dc037fa7f54bd2dfe2155f2edd48240d3cec42f"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/61ea095832bbe7443816499d2e731629.asset.meta",
+      "target": "SerializedUdonPrograms/61ea095832bbe7443816499d2e731629.asset.meta",
+      "sha256": "c02fd8591c7a4345cdd8110f0c51b10fb68721198246293116936788ffcccecc"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/62f24f4d04472054aaabb551dea679f4.asset",
+      "target": "SerializedUdonPrograms/62f24f4d04472054aaabb551dea679f4.asset",
+      "sha256": "26b1f2e1c99cc7d181bc21de13cc0aeefcca84725da036e91411cfb59789ae63"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/62f24f4d04472054aaabb551dea679f4.asset.meta",
+      "target": "SerializedUdonPrograms/62f24f4d04472054aaabb551dea679f4.asset.meta",
+      "sha256": "0e6b13782e0c181238a76ae560ae02f73777e078835b6c05f9880e6c83ed6cc6"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/6477aafbd3dd3c44b93da0cee7ff6506.asset",
+      "target": "Samples~/OriginalUnusedBytecode/6477aafbd3dd3c44b93da0cee7ff6506.asset",
+      "sha256": "5f65974312cbc5d138020dcc85a29a9f5d10ef873be774a470afbb15239e5328"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/6477aafbd3dd3c44b93da0cee7ff6506.asset.meta",
+      "target": "Samples~/OriginalUnusedBytecode/6477aafbd3dd3c44b93da0cee7ff6506.asset.meta",
+      "sha256": "0be1d8920285c198caea82edf25309f04b5b6eb91e9972c854a2292a0b84af2a"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/65088335e29edbe46ac6a7c7909a560b.asset",
+      "target": "SerializedUdonPrograms/65088335e29edbe46ac6a7c7909a560b.asset",
+      "sha256": "bfcf719f527bbbf15e0da9ad99cfafc6c613c62393f6232663caa74a48fa9819"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/65088335e29edbe46ac6a7c7909a560b.asset.meta",
+      "target": "SerializedUdonPrograms/65088335e29edbe46ac6a7c7909a560b.asset.meta",
+      "sha256": "e043598b8f2edd1be282f6f1935ec503ba7a4bbdf717e8885dc922b9d054679d"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/78b75a58aad622e40bdf6e6d713d2487.asset",
+      "target": "Samples~/OriginalUnusedBytecode/78b75a58aad622e40bdf6e6d713d2487.asset",
+      "sha256": "a0037d6b16802a3415bd0ab021aa2b57cf024c42ac423051bd18179c54458a5e"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/78b75a58aad622e40bdf6e6d713d2487.asset.meta",
+      "target": "Samples~/OriginalUnusedBytecode/78b75a58aad622e40bdf6e6d713d2487.asset.meta",
+      "sha256": "98c2172d6dbfcb62c206aef95114ab5f19e2fa33ecbe61a0bf03d4d22775212f"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/81d4ec120d8c6fe4e8cf4869c51b652e.asset",
+      "target": "Samples~/OriginalUnusedBytecode/81d4ec120d8c6fe4e8cf4869c51b652e.asset",
+      "sha256": "bac406351d34c2640006cc2988e238aa6ea902b45e8963f68ec33b73cfce91bf"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/81d4ec120d8c6fe4e8cf4869c51b652e.asset.meta",
+      "target": "Samples~/OriginalUnusedBytecode/81d4ec120d8c6fe4e8cf4869c51b652e.asset.meta",
+      "sha256": "4ae3c869d063c7881dd3d7a72450131a40cb1ee5e5d2728778f9295728cac56e"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/8c616d737aeab2c44a64763eb46d4cfd.asset",
+      "target": "SerializedUdonPrograms/8c616d737aeab2c44a64763eb46d4cfd.asset",
+      "sha256": "1245a2f19bb248894c9cb8e793b2698b9eae98af26b23f5777252bd7f347ce86"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/8c616d737aeab2c44a64763eb46d4cfd.asset.meta",
+      "target": "SerializedUdonPrograms/8c616d737aeab2c44a64763eb46d4cfd.asset.meta",
+      "sha256": "ac8613a18489b086fc1d6449ea650791a4ab5ac34f6b44ab6cb1c193fdbf0190"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/98506a2a5f93e8f4eaa02cbed74119ed.asset",
+      "target": "SerializedUdonPrograms/98506a2a5f93e8f4eaa02cbed74119ed.asset",
+      "sha256": "656420ef1fb483f0d5a6956da5f8bee099ada09eb9f7912469be3650fe37c4b8"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/98506a2a5f93e8f4eaa02cbed74119ed.asset.meta",
+      "target": "SerializedUdonPrograms/98506a2a5f93e8f4eaa02cbed74119ed.asset.meta",
+      "sha256": "b8c34215ec44c8abba9ec06b3caf3ab42159c3f3c3717a1abc1516ef4d984697"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/9d47ac49b5cf630409559ba0c6b286a3.asset",
+      "target": "Samples~/OriginalUnusedBytecode/9d47ac49b5cf630409559ba0c6b286a3.asset",
+      "sha256": "fe2c4a33be28b09a2b9c34d48690ae136ff290d5aa2cd13925e6f757948df4a7"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/9d47ac49b5cf630409559ba0c6b286a3.asset.meta",
+      "target": "Samples~/OriginalUnusedBytecode/9d47ac49b5cf630409559ba0c6b286a3.asset.meta",
+      "sha256": "571089a0965738c696aceb238b70cfb7f7132d2dc213f59ef48158d8e36bb5bf"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/bb160c19a747fc9478445e2f3d9933d5.asset",
+      "target": "Samples~/OriginalUnusedBytecode/bb160c19a747fc9478445e2f3d9933d5.asset",
+      "sha256": "3599c6486e61b44ce4a72c1e8c21307dd9696bc9c52edfedd93638e1a3064d92"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/bb160c19a747fc9478445e2f3d9933d5.asset.meta",
+      "target": "Samples~/OriginalUnusedBytecode/bb160c19a747fc9478445e2f3d9933d5.asset.meta",
+      "sha256": "a9df37a0fdb1c33af838a6414b964a3489cf70f76aceb851c2579e6f1e3d0ee1"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/bd60f315ac85c994cabd7343747235d9.asset",
+      "target": "Samples~/OriginalUnusedBytecode/bd60f315ac85c994cabd7343747235d9.asset",
+      "sha256": "6a0f7e9ece9a97497968902b2ff1833d6fe502b003156327196f204f74b480c9"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/bd60f315ac85c994cabd7343747235d9.asset.meta",
+      "target": "Samples~/OriginalUnusedBytecode/bd60f315ac85c994cabd7343747235d9.asset.meta",
+      "sha256": "53350b52c5a9ff42006521f8cbdacd4ecfb5082196077a1eb6807b8223626c6b"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/cbe5bb0f42ee0cf4f8674f11b5cb1133.asset",
+      "target": "SerializedUdonPrograms/cbe5bb0f42ee0cf4f8674f11b5cb1133.asset",
+      "sha256": "f6da6c1f0853bfc09cdc27d8c497efaecce25ae3f66c16dd141d37d9dca0d87a"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/cbe5bb0f42ee0cf4f8674f11b5cb1133.asset.meta",
+      "target": "SerializedUdonPrograms/cbe5bb0f42ee0cf4f8674f11b5cb1133.asset.meta",
+      "sha256": "d9f8338d21d43fa70d34b3f0549279c8b4f6ab48eab0323c70fc811f1bff315e"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/cd459bc2bd7e12f409e7baaea2254924.asset",
+      "target": "SerializedUdonPrograms/cd459bc2bd7e12f409e7baaea2254924.asset",
+      "sha256": "485e5e6442404e5ca2e72050c82cd829bc45d5324987d0d629a4fb4bcc30c5ab"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/cd459bc2bd7e12f409e7baaea2254924.asset.meta",
+      "target": "SerializedUdonPrograms/cd459bc2bd7e12f409e7baaea2254924.asset.meta",
+      "sha256": "66a2d87777a71717894f6135024d4e72f9bb5cd70f35e0c73836104952c16cbc"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/d722b6db295ca634790a0beebd593b48.asset",
+      "target": "Samples~/OriginalUnusedBytecode/d722b6db295ca634790a0beebd593b48.asset",
+      "sha256": "ef1f0a7c6fc0d46c1f94fb8e24c4a83895a4d7ebfd03bb5bcd69cea2be15b028"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/d722b6db295ca634790a0beebd593b48.asset.meta",
+      "target": "Samples~/OriginalUnusedBytecode/d722b6db295ca634790a0beebd593b48.asset.meta",
+      "sha256": "8b68f44f9299da866167357484a364f2682c062add701a4fd8afa38e3931391c"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/da85b1522a1aada48afee7e4502ba1c0.asset",
+      "target": "Samples~/OriginalUnusedBytecode/da85b1522a1aada48afee7e4502ba1c0.asset",
+      "sha256": "8dd076ffed05a6b371426c5f015bd59106144c96ce5f7870e0043fbfeaa27c5e"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/da85b1522a1aada48afee7e4502ba1c0.asset.meta",
+      "target": "Samples~/OriginalUnusedBytecode/da85b1522a1aada48afee7e4502ba1c0.asset.meta",
+      "sha256": "bbae567194237f73b1a167d8842026612dc8e89ced5b36da23d5227947d15116"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/ec09ab0943a811149aad596e62d34b75.asset",
+      "target": "SerializedUdonPrograms/ec09ab0943a811149aad596e62d34b75.asset",
+      "sha256": "1dc77c6e38cd7a2af36fd0c7fe191e1a07e0ec549df0d516ad93015143329709"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms/ec09ab0943a811149aad596e62d34b75.asset.meta",
+      "target": "SerializedUdonPrograms/ec09ab0943a811149aad596e62d34b75.asset.meta",
+      "sha256": "31a6408804c8c93c40b2770d623ad2bef0fb2af86cf1d75b2bccae3c636ed3f4"
+    },
+    {
+      "source": "Assets/SerializedUdonPrograms.meta",
+      "target": "SerializedUdonPrograms.meta",
+      "sha256": "23d4d810aff1b490f33d7c63baeacaeacd986dbb2d44bfc1ea629911fa1ad3e9"
+    },
+    {
+      "source": "Tools/NEW-WORLD.md",
+      "target": "Tools~/NEW-WORLD.md",
+      "sha256": "15adda01e5180ff04b04c1ab4619d6f596d190e38bf7f6fac3de7aea42b8be87"
+    },
+    {
+      "source": "Tools/Open-NewWorld.ps1",
+      "target": "Tools~/Open-NewWorld.ps1",
+      "sha256": "933659740f0e9ea83dcc5ab4a0aa0e8a7e3d6fec64a2b8160e874e7c39662203"
+    },
+    {
+      "source": "Tools/Open-Unity.ps1",
+      "target": "Tools~/Open-Unity.ps1",
+      "sha256": "e4e7e1f3f07c6fe03ca8d9673893ff59e2468e43768df25e9f8d12d32f12b7da"
+    },
+    {
+      "source": "Tools/Repair-ClientSimPersistence.ps1",
+      "target": "Tools~/Repair-ClientSimPersistence.ps1",
+      "sha256": "ca3253e9f5a4520931c69991b2d43aadb9871f53097e3d3cb10d8f972b836ecd"
+    },
+    {
+      "source": "Tools/STARTUP-REPAIR.md",
+      "target": "Tools~/STARTUP-REPAIR.md",
+      "sha256": "cf072539a0df87a30261112f40b07c4266d1b0a5d89ccb68ff1c7f91f72b49d9"
+    },
+    {
+      "source": "Tools/WORLD-DEPENDENCIES.md",
+      "target": "Tools~/WORLD-DEPENDENCIES.md",
+      "sha256": "0444b89122c68a1fbd33c166dc0fd64365c1b47ce9a65a2a2ebb450ed767703c"
+    },
+    {
+      "source": "Tools/Doom/c-core-permissions.patch",
+      "target": "Tools~/Doom/c-core-permissions.patch",
+      "sha256": "0c5c0986b5281475dec2e1e7bf7a2ab30a2c043eb58276e2761cf7bcf23d9d4a"
+    },
+    {
+      "source": "Tools/Doom/FONT.json",
+      "target": "Tools~/Doom/FONT.json",
+      "sha256": "bbf7757b7e44f43c2efe11fefc097fd08589952a2102f14b691ab85308e5ce45"
+    },
+    {
+      "source": "Tools/Doom/import-textures.py",
+      "target": "Tools~/Doom/import-textures.py",
+      "sha256": "7b2a29f0ec75719c0200373ccec8f4e1482095c3c88f50809940560592c39cbb"
+    },
+    {
+      "source": "Tools/Doom/prepare-source.py",
+      "target": "Tools~/Doom/prepare-source.py",
+      "sha256": "5d9eb67cdf6cb809ad883cb37964b5f8fbb8d8eccd63c9766db69fc0861dc21e"
+    },
+    {
+      "source": "Tools/Doom/README.md",
+      "target": "Tools~/Doom/README.md",
+      "sha256": "bbe6e9827093a2ec62821afaa5cfc66f67933751b3733a8266d12d33831cedfa"
+    },
+    {
+      "source": "Tools/Doom/run-doom.ps1",
+      "target": "Tools~/Doom/run-doom.ps1",
+      "sha256": "98775b6328fe0ba9a72e69b699535c28cc0db7ad51cdcba9bde87a10b6f3cbe5"
+    },
+    {
+      "source": "Tools/Doom/texture-imports.json",
+      "target": "Tools~/Doom/texture-imports.json",
+      "sha256": "890e7f2c0739d3210cae395e640680dbbe37038706e01149be54b6f685b08810"
+    },
+    {
+      "source": "Tools/Doom/VALIDATION.md",
+      "target": "Tools~/Doom/VALIDATION.md",
+      "sha256": "587270f5d0d584835edf244e3f1fdc4ed5f6ecea4d94df294b2530d2fc991b0d"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/Makefile",
+      "target": "Tools~/Doom/source-overlay/Makefile",
+      "sha256": "f7a6c8971b193d5995895296fe4642ae10f4695f05fbfa1c3914b43f206284d4"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/.gitattributes",
+      "target": "Tools~/Doom/source-overlay/doom_payload/.gitattributes",
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/.gitignore",
+      "target": "Tools~/Doom/source-overlay/doom_payload/.gitignore",
+      "sha256": "95a43c236e9cd8b1e9da192fbb138ec4c0fbf62252089c958f3b282f51ccd0df"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/build_baremetal.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/build_baremetal.py",
+      "sha256": "9648317f3bb696ee1d6b0244846eb67628b66aa0e2487b01efb6b1a481268c82"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/build_emdoom.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/build_emdoom.py",
+      "sha256": "e32e6603b0b7a17c7ef5368e93b495e2953dd12dfb291997ade83bcb571bc40d"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/build_linux.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/build_linux.py",
+      "sha256": "16279194af6bb2205707e63df3c165c588a6c363158e35bc78c8ee668ae4ba8e"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/build_newlib_toolchain.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/build_newlib_toolchain.py",
+      "sha256": "216c52859d255024a2cf12388ce7736740394ef4ae024ef4595a045eff5bc251"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/build_reproducible.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/build_reproducible.py",
+      "sha256": "814f0bfb0aa6e43732f36a9f41d3fde22a40b2898c6533f3c3c8a6e383a0942d"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/capture_doom.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/capture_doom.py",
+      "sha256": "4793a57c98d8e2ca7ebd5c3465ca2d5407aa61fd25ef14d177f95de66aeee155"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/check_ascii_stability.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/check_ascii_stability.py",
+      "sha256": "c35ed9f88fc718b42359f0c5772b820ac6fa5b843c7baae58a275bbf039aa23b"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/check_baked.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/check_baked.py",
+      "sha256": "bc54c048bd11e49e1ebd95d13572f9fd352352dade27007b856f1bac35ca056e"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/compare_ascii.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/compare_ascii.py",
+      "sha256": "acbd1798ed81580b0cebb80b1b3f8a8031508a13ecc9cf1145cea303d6f5e850"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/compare_ascii_modes.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/compare_ascii_modes.py",
+      "sha256": "df8b42951a88801f315b63a7738125c1ba066f1fed313a24492154c0372da855"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/compare_sample_hashes.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/compare_sample_hashes.py",
+      "sha256": "74e95b96a858240333b314afad0170d65eead47dd7d590f23f96f0729dcd6fba"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/compare_unity_frame.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/compare_unity_frame.py",
+      "sha256": "f0588a4c21c896b4427bf38370c4cf6ac2be548cf59d796be9062dd38bb4deeb"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/doomauto",
+      "target": "Tools~/Doom/source-overlay/doom_payload/doomauto",
+      "sha256": "1d1ab056497162e23ffe1fa3dca79ef4bf0f417e27a0434223a5bc3ecc12bf0a"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/doominit",
+      "target": "Tools~/Doom/source-overlay/doom_payload/doominit",
+      "sha256": "42ec5b3869bd50be2f4fb739c0f39035be0a8d3d8aff282e961d6f6cd44797ea"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/install_rootfs.sh",
+      "target": "Tools~/Doom/source-overlay/doom_payload/install_rootfs.sh",
+      "sha256": "3fa08a69c2494a3ae91579e67307c66ec2503bfd6f73c0deebbd5e60b12900f1"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/isa_trace.c",
+      "target": "Tools~/Doom/source-overlay/doom_payload/isa_trace.c",
+      "sha256": "9aa9e821f127d31e0107b8a1ed65ec79c97fc0e38bacf79f1bc9080a186db250"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/isa_vm.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/isa_vm.py",
+      "sha256": "772b66bb5d47fd4347827ccc9972296f5a8ff74ae37b313ba589fdca378d80d4"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/iwad.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/iwad.py",
+      "sha256": "bce16a5a75a9923930f24319ad0c31aa0698837d47c919d626a80859a8a5df03"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/Makefile.inc",
+      "target": "Tools~/Doom/source-overlay/doom_payload/Makefile.inc",
+      "sha256": "e277b959f4f9f6e88bf557fd9e64b9480195cf748a70df4b284269eacd8fdad0"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/make_dts.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/make_dts.py",
+      "sha256": "3596201e8eff65ce0ecf694079ec68257d9e2d431ddc7e390969da78db2e4bcf"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/make_font.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/make_font.py",
+      "sha256": "6edc4d40022babfbde31bf4e528375c7a1e8fa6ce194b9a28f28450e0203ae04"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/mmu_sum_probe.c",
+      "target": "Tools~/Doom/source-overlay/doom_payload/mmu_sum_probe.c",
+      "sha256": "88f54de14c3aebd7db701d9c1f47add4b751ffd07d6d18c1e8e95f7326541c40"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/mprv_guest_tests.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/mprv_guest_tests.py",
+      "sha256": "b6f4c963b2c9059fcf2d98d6a783152cf1af32f36d82012a12116391b4462dfb"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/m_probe_reference.c",
+      "target": "Tools~/Doom/source-overlay/doom_payload/m_probe_reference.c",
+      "sha256": "0a9c2c3a19473d64bd8c82f2cb83f3669cdb48eb2052f949d3d663e53d0cfe5d"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/normalize_cpio.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/normalize_cpio.py",
+      "sha256": "57a2744de649333d0f882a98ab23dda767d538adbaa7ca53cf073a821bae472e"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/prepare_isa_tests.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/prepare_isa_tests.py",
+      "sha256": "7634a20fb6f21bdbdb55e5a915a08578a28c03b96d986d5de83de1c239c720df"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/prepare_rootfs.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/prepare_rootfs.py",
+      "sha256": "a659c573bb7a16cef1510b414356adebc902d5f4a4673ed1653dc5e0a5f48bcd"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/prepare_textures.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/prepare_textures.py",
+      "sha256": "a85e1bd3a76064ebc10abb70944781e260f050e1adbcac6968a3f0ba1bad7e9e"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/prepare_unity_project.ps1",
+      "target": "Tools~/Doom/source-overlay/doom_payload/prepare_unity_project.ps1",
+      "sha256": "891a4a012c1d680dbfe6061f2b655a47955b3b39eb3863e68cb6c894f27fedf1"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/replay_uart.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/replay_uart.py",
+      "sha256": "ca6d808e3b30a8c6b35a7e796aa81cf1438a3447402b8444a76002a281b89199"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/reproducible.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/reproducible.py",
+      "sha256": "dff3dc7813527c12f9df154be5bd3350b123db97401209b2fce02c00b2ec5798"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/run_isa_c.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/run_isa_c.py",
+      "sha256": "b630e1164aeadab1812d0ed4862ad5a333c3f27f5af8f725821c10d1c1a0a07d"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/run_unity.ps1",
+      "target": "Tools~/Doom/source-overlay/doom_payload/run_unity.ps1",
+      "sha256": "d24cb00887acd7a4cd2c3d2a04dd75fbd7174ca0565368da6729561e94d29c36"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/rvc_probe.c",
+      "target": "Tools~/Doom/source-overlay/doom_payload/rvc_probe.c",
+      "sha256": "d65e11ecee5cfe8ed48665aef1dc61692665508a4a6f79a551561983e8714ec1"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/test_ascii_modes.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/test_ascii_modes.py",
+      "sha256": "b732684c84cb862adaaf7e91c2e89faf66521556a1b96692cb6547f2fcf09f64"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/test_check_baked.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/test_check_baked.py",
+      "sha256": "05a4a258ec98baf983a68e8e6818144d47bfc745f07ebf0c709bdfa635a293a6"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/test_isa_inventory.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/test_isa_inventory.py",
+      "sha256": "5a4977c6277579807786064b7c7c47f2c0f849fa5af20753e307431d67a97afe"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/test_isa_vm.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/test_isa_vm.py",
+      "sha256": "305237974bb16e986c4f50dbe224a7eb93937b39b2275234253b228e2ece50ad"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/test_iwad.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/test_iwad.py",
+      "sha256": "1b8a20e9df7d3a1bafc1fb6321e973dc61b3312ecd73c0944393b829a7bf9565"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/test_local_sdk_fixes.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/test_local_sdk_fixes.py",
+      "sha256": "d6ed699d1f07957a73cdf67542e166a3fd91aeaa05fc67d6a4a653b811795143"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/test_mprv_guests.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/test_mprv_guests.py",
+      "sha256": "698d23dcf960c138c1432603ef4691f9209d121154aaaa89a05aa075ef92c80a"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/test_normalize_cpio.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/test_normalize_cpio.py",
+      "sha256": "3ae6f8089eb7311fc77e793f56317f747b605b8df2a2abe381d26fbe0f74e1ce"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/test_replay_uart.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/test_replay_uart.py",
+      "sha256": "f5dab96c1b7302b717202308e1bf4462b6e5c6794a33d4e97f6bbc024a73c5cd"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/test_video_console.c",
+      "target": "Tools~/Doom/source-overlay/doom_payload/test_video_console.c",
+      "sha256": "0437ec5c8dbdbf47e20b2efbc6010e62b62fa22f0b75a9c4b81ecba15536b7ee"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/test_video_console.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/test_video_console.py",
+      "sha256": "8ebb1873d5ed7c442c9a41b8c6c0b2799d36d7671b9c2c4116c5c3b405288f5a"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/video_console.c",
+      "target": "Tools~/Doom/source-overlay/doom_payload/video_console.c",
+      "sha256": "14acebdc7cd184d1bc6524e1d5aab98ab24cee0c61940158325d4b649af0e615"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/baremetal/adapter.c",
+      "target": "Tools~/Doom/source-overlay/doom_payload/baremetal/adapter.c",
+      "sha256": "6dd8052805f93c3266376c172761253bd1b5cebb517192e05a7a7856293583c8"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/baremetal/link.ld",
+      "target": "Tools~/Doom/source-overlay/doom_payload/baremetal/link.ld",
+      "sha256": "78ab57f8cd54683aaf4a71f242c21463320c840fa9d2f8123ae15cec1211bb60"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/baremetal/README.md",
+      "target": "Tools~/Doom/source-overlay/doom_payload/baremetal/README.md",
+      "sha256": "7de6caf28265e340c9071ca268effd38d5fea3d56ced76a4745bc2757907c823"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/baremetal/start.S",
+      "target": "Tools~/Doom/source-overlay/doom_payload/baremetal/start.S",
+      "sha256": "46645df74b9c749e9c9a8e219e828937a27208d1e47f6a5aff17c10f6f2094f3"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/baremetal/syscalls.c",
+      "target": "Tools~/Doom/source-overlay/doom_payload/baremetal/syscalls.c",
+      "sha256": "7d9d30076ba09c0898745cf301ccdcd6db91bd0f71c65f34acb03bfd8e7aec63"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/licenses/DOOM-GPL-2.0.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/licenses/DOOM-GPL-2.0.txt",
+      "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/licenses/doomgeneric-LICENSE",
+      "target": "Tools~/Doom/source-overlay/doom_payload/licenses/doomgeneric-LICENSE",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/licenses/embeddeddoom-LICENSE.md",
+      "target": "Tools~/Doom/source-overlay/doom_payload/licenses/embeddeddoom-LICENSE.md",
+      "sha256": "535dcbe5209421fd7e63603161ea5d1ba539c30e2e6a74bbbad479170a65eaf8"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/licenses/FREEDOOM_COMPONENTS.md",
+      "target": "Tools~/Doom/source-overlay/doom_payload/licenses/FREEDOOM_COMPONENTS.md",
+      "sha256": "a5469320067587a7aad2dcc01c18c9038b483d57d2aec1485c8d6cb0ed08c57d"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/licenses/GAME-STRINGS.md",
+      "target": "Tools~/Doom/source-overlay/doom_payload/licenses/GAME-STRINGS.md",
+      "sha256": "6a9fffa5fca1fe099cb6d573fc3f0115bb2c3c7cc677c9f9a688cfe755c21c51"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/licenses/LICENSE-NOTES.md",
+      "target": "Tools~/Doom/source-overlay/doom_payload/licenses/LICENSE-NOTES.md",
+      "sha256": "1a70a28d1cf768edb3ef051bbfc7565cd551234d09e18adbada5bc9a597da9dc"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/licenses/mini-rv32ima-LICENSE",
+      "target": "Tools~/Doom/source-overlay/doom_payload/licenses/mini-rv32ima-LICENSE",
+      "sha256": "979f7a246f28f5b94c5122d5fb766c1add860c7cefcd04c64ddb5523294208dc"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/licenses/PAYLOAD-MODIFICATIONS.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/licenses/PAYLOAD-MODIFICATIONS.txt",
+      "sha256": "967939c61a1ec8f1bc1580cd9a1d9fdd79b3938314375d336e05b4983c08b136"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/licenses/PAYLOAD-SHAREWARE-MODIFICATIONS.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/licenses/PAYLOAD-SHAREWARE-MODIFICATIONS.txt",
+      "sha256": "dd7832a4ea8b1bc852b0e3bd3bac71c219da0111751f750c1d5401e9e55bd8ff"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/licenses/RELEASE-DRAFT.md",
+      "target": "Tools~/Doom/source-overlay/doom_payload/licenses/RELEASE-DRAFT.md",
+      "sha256": "b12844fbde8fbd86269be0e4233ea704250dd6bddf59922d45fb573b77c8fef2"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/licenses/shareware-data-LICENSE.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/licenses/shareware-data-LICENSE.txt",
+      "sha256": "e37fc63cb53acc9e59c12e1806ecb543d793e4a0ddbfb435f453c7c4e520e383"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/.gitattributes",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/.gitattributes",
+      "sha256": "e15855bbc8313d100946c679673503031e38339c63d6a5f279a80ac2d2aa08af"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/build_font.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/build_font.py",
+      "sha256": "df78fd3cefc998dfd0bf040be9db3f365893fcb07a43c960d633e5d44740702b"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/documents.json",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/documents.json",
+      "sha256": "9b6fa5354b353a53e9eb724f9411a4990cf6a2748bc6ac377cf0695ff9b4b7fb"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/FONT.json",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/FONT.json",
+      "sha256": "74344a2b0fd2ae7e5d683898556cde5c6ccafc35b29f251cf3f8d27cecdd2215"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/install.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/install.py",
+      "sha256": "dab676875f0d29ee6f67c30db061fcd12a01acd2300f0fe3483bdb19716eaa1b"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/patches/embeddeddoom-baker-bounds.patch",
+      "target": "Tools~/Doom/source-overlay/doom_payload/patches/embeddeddoom-baker-bounds.patch",
+      "sha256": "dc0069f9e4d07f68ac8e99096dde1efaa7d46fb46d5e77592d7051470ba684f2"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/patches/embeddeddoom-freedoom.patch",
+      "target": "Tools~/Doom/source-overlay/doom_payload/patches/embeddeddoom-freedoom.patch",
+      "sha256": "23c649f59005425dd600d88a8507704230fec5b78b85b00d39113601b4f023ac"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/test-fixtures/manifest.json",
+      "target": "Tools~/Doom/source-overlay/doom_payload/test-fixtures/manifest.json",
+      "sha256": "5f90ff659bd34a9f0f9bb35e10a09d1cd0922867a33a47ad58c91b6c284d2546"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/test-fixtures/video_console-2bb6d5f4.c",
+      "target": "Tools~/Doom/source-overlay/doom_payload/test-fixtures/video_console-2bb6d5f4.c",
+      "sha256": "bd1b70bd811da15709e4b09fa23267852b793e6d1ac6c18882729e243d360a3e"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/test-fixtures/video_console-46982255.c",
+      "target": "Tools~/Doom/source-overlay/doom_payload/test-fixtures/video_console-46982255.c",
+      "sha256": "fc2fa43c818db86dded8df674d007531e47199f887388b267897ac50c869cb19"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/apply_local_sdk_fixes.py",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/apply_local_sdk_fixes.py",
+      "sha256": "d3718f7fa644824ec58db6067a5ebda12380252dce8082a5c6f077448b3f6f57"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/Documents/00.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/Documents/00.txt",
+      "sha256": "ef784707437b0ea2d54d3847b004686696c0c69e2bd085a09a54c2c3c3ae4b39"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/Documents/01.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/Documents/01.txt",
+      "sha256": "7c62f2c520769c798774f416637eec4921e5f0aafdac1245ae7c8a8cf65fe102"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/Documents/02.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/Documents/02.txt",
+      "sha256": "72364333d295c598d75ef9553d3b3661ad0b60e27271c87b7637c74b2f46918a"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/Documents/03.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/Documents/03.txt",
+      "sha256": "2bb77677bbc4e587bba44ccb6514ee0f5397c7bb8ae9580b9188d3d6a57c0a31"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/Documents/04.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/Documents/04.txt",
+      "sha256": "535dcbe5209421fd7e63603161ea5d1ba539c30e2e6a74bbbad479170a65eaf8"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/Documents/05.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/Documents/05.txt",
+      "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/Documents/06.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/Documents/06.txt",
+      "sha256": "fb5a425bd3b3cd6071a3a9aff9909a859e7c1158d54d32e07658398cd67eb6a0"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/Documents/07.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/Documents/07.txt",
+      "sha256": "f6b78c087c3ebdf0f3c13415070dd480a3f35d8fc76f3d02180a407c1c812f79"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/Documents/08.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/Documents/08.txt",
+      "sha256": "8e378ab93586eb55135d3bc119cce787f7324f48394777d00c34fa3d0be3303f"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/Documents/09.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/Documents/09.txt",
+      "sha256": "bbfc9843646d483c334664f651c208b9839626891d8f17604db2146962f43548"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/Documents/10.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/Documents/10.txt",
+      "sha256": "82d13fb1bf6bb162629deeea9eb9c117e74548d3b707e478967691fe79a68e21"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/Documents/11.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/Documents/11.txt",
+      "sha256": "87ef9b9a7d4d83f10c0e4d839dc35fae7e6741f0715618c6a294fc9cd1d3e2e2"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/Documents/12.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/Documents/12.txt",
+      "sha256": "3746facc32c7217f81261889cefe6ab241ce4b745eee5845c9b1ea8f00bcd935"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/Documents/13.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/Documents/13.txt",
+      "sha256": "8e8c8829fe027f3af18125fe3f62645affc73de3a46cc37fc25a272db62f5df1"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/Documents/14.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/Documents/14.txt",
+      "sha256": "25dda933e10d9873327b2cc337cfb6edf1bb4d7e6714484a7505abcce1ed355f"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/Documents/15.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/Documents/15.txt",
+      "sha256": "2b29ea77d7657d49bd7059c7904a60a62f0f7fa90c443398545ec1e734f8b6ca"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/Documents/16.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/Documents/16.txt",
+      "sha256": "967939c61a1ec8f1bc1580cd9a1d9fdd79b3938314375d336e05b4983c08b136"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/Documents/17.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/Documents/17.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/license_board/Documents/18.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/license_board/Documents/18.txt",
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomBootstrap.cs",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomBootstrap.cs",
+      "sha256": "bbad85465e5d70123656af478a9b03b90beb7a812ca3fd2355e1691d3bcac1da"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomBootstrap.cs.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomBootstrap.cs.meta",
+      "sha256": "3aa53dd8f942350c3664bd16d78dca158275f291322ac86c6f42306ea5a2f29c"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomBuild.cs",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomBuild.cs",
+      "sha256": "67dca558c8f05dbf5b57c38bef9438c003ba89a91392819ed3cc046a8dad0181"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomBuild.cs.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomBuild.cs.meta",
+      "sha256": "251e7ceaa2ed9fc80ad54c9b04f41ef69f86ad2a35e52c4ae68631e5d95fda5f"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomDisplayAudit.cs",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomDisplayAudit.cs",
+      "sha256": "2e835910b8c7705602b64feb6b80348967e6e69de270771997914a0890badb75"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomDisplayAudit.cs.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomDisplayAudit.cs.meta",
+      "sha256": "d14badc61a2dbdb92cc628ec0b52e6b2cb852ad84f78805258e175877ef9fe8f"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomFramebufferProbe.cs",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomFramebufferProbe.cs",
+      "sha256": "8ec95078af403af1f10e53a1b07c9f1f42cdb00a408502f48e1a019fafb4fc14"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomFramebufferProbe.cs.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomFramebufferProbe.cs.meta",
+      "sha256": "bb23e5f9aa7022765c2acf4b16119a8e98c262f5939c6c69d512423201af82f7"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomIsaRegression.cs",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomIsaRegression.cs",
+      "sha256": "77f29ec3fbb1957b3da9df81b9d64f921a538d77d54724e1c9cb757bfb6d0fb1"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomIsaTests.cs",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomIsaTests.cs",
+      "sha256": "1cd90f5b0d67d53b5e6b4fca911bab6efa983af132c5f2972e3ade748ca6d4fd"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomIsaTests.cs.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomIsaTests.cs.meta",
+      "sha256": "e74e5100609a3e0c31ed6d3dc35eaa14cdadd35f81061928a8351812fa91a5b8"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomIwadVerify.cs",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomIwadVerify.cs",
+      "sha256": "a07407cc23a1fc3efcaed832d5103ecf070d638802140273df6df245b795cc57"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomLicenseBoardBuild.cs",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomLicenseBoardBuild.cs",
+      "sha256": "4d6586d14e9791de95e3f9bc1625a1787cb1aa268e2c27ed774dc4f9695932fa"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomLicenseBoardBuild.cs.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomLicenseBoardBuild.cs.meta",
+      "sha256": "4e9d87efc5474935cd1c2341b1f948e83105421693458f38e772a62b790fd868"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomLicenseFont.cs",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomLicenseFont.cs",
+      "sha256": "b662ca21c39cf5b36ba14000df632c697099f07c2763505fa5c5dc77cf36c11e"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomLicenseFont.cs.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomLicenseFont.cs.meta",
+      "sha256": "84deee1a230b47303ce5f40855f4cf3c8f5ce10ffc8814dabf4cb4c4b695275c"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomMmuProbe.cs",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomMmuProbe.cs",
+      "sha256": "df6cbb3e856271a162d7571b8b19831a304acd30d404cd081ce2da6c5ed4b522"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomMmuProbe.cs.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomMmuProbe.cs.meta",
+      "sha256": "3892f24f9b37eba8240ed968150ee201fc0795118163e6130dbf92cd2477e846"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomMmuProbe.shader",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomMmuProbe.shader",
+      "sha256": "b5fa6474a00e7e8acc2f33bd0b5134c6ffaa74e348283385e8e15f965f6f8e98"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomMmuProbe.shader.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomMmuProbe.shader.meta",
+      "sha256": "c3db2ec7625497908b2d83f8c8f07fbe436f26465f3cf5928ee549409b885936"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomMulhProbe.cs",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomMulhProbe.cs",
+      "sha256": "03a808a09131bcca52d9f496cbc1a9bf8abff5d615fd95ccbe86b40f31fc2e88"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomMulhProbe.cs.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomMulhProbe.cs.meta",
+      "sha256": "78d6915e6dd4f349d79d6dcc454fdb8b73d695ff8d78d797d414c7b89e41b975"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomMulhProbe.shader.txt",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomMulhProbe.shader.txt",
+      "sha256": "7a62f00b7acc89f20a654b34bdffb6d59237ea1edec4f09491287a1b4abc0f06"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomMulhProbe.shader.txt.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomMulhProbe.shader.txt.meta",
+      "sha256": "5493a6ccce26c5e08b41b7b32140af72c91c408daccbab053f233f3fcd3b26e8"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomSceneValidation.cs",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomSceneValidation.cs",
+      "sha256": "e8e7c3675ddbfda1c5edd45750d2265044aa9dbec5dc9092b9fa7b30bed82fa3"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomSceneValidation.cs.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomSceneValidation.cs.meta",
+      "sha256": "628294ea768cafd72e86ac5d81863e9dff47e87a662439088524bc536cc1cf3e"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomStateProbe.shader",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomStateProbe.shader",
+      "sha256": "9d3d227a011103807b6629c76122d4d17436fa403eb7203f41754830e468b3c2"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomStateProbe.shader.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomStateProbe.shader.meta",
+      "sha256": "f68f6b5a2ec324853e4af48b93b22dacd4bf8fcf95f3dc44a878474ffc5a1ee4"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomTimeProbe.shader",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomTimeProbe.shader",
+      "sha256": "4b63b7a67401d6523e96980ef064ec1ab1f357ae2db6229eddf27c8f0e87e0ce"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomTimeProbe.shader.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomTimeProbe.shader.meta",
+      "sha256": "35d5d58a091b95a7ea1166592dc2c0f036f8044c2055d47233ff33e6cfe78151"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomVerify.cs",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomVerify.cs",
+      "sha256": "926cd48b74beab46fde9c3f2fd3813f32e6d0694c2bae5f23ddd8df36e2aadf4"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomVerify.cs.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomVerify.cs.meta",
+      "sha256": "f629185e882f311d93cdd9d93a98723e4ea0c5f34de3f3199387ecc049f8f223"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomWorldErrorTests.cs",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomWorldErrorTests.cs",
+      "sha256": "47c59f19c43fe52cb37ef3723b43361086204c12817a5db0dc054faf4f775b8f"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Editor/DoomWorldErrorTests.cs.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Editor/DoomWorldErrorTests.cs.meta",
+      "sha256": "f97a356ed32a774160dc9ad4594117e68082ce19d0a2abe8aed30c4a0aca2523"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Runtime/DoomControl.cs",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Runtime/DoomControl.cs",
+      "sha256": "8906e564a566d1bd1629dabd766344caa195645847a9dca2a6528be56a69c681"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Runtime/DoomControl.cs.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Runtime/DoomControl.cs.meta",
+      "sha256": "255d72b9d00b10a03f1d37d506969a8dd9dfd68e367d5661f8db3b2da29ff40d"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Runtime/DoomInputAck.cs",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Runtime/DoomInputAck.cs",
+      "sha256": "7b1778200b6cc95618f5e9a12ff5e3bb37f94eefad4716b0b67f40ff9e9c4abc"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Runtime/DoomInputAck.cs.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Runtime/DoomInputAck.cs.meta",
+      "sha256": "68c27f987c4674752eec8df328c95982feb7923b0e8f577b2d2e692c2b523dba"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Runtime/DoomKeyButton.cs",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Runtime/DoomKeyButton.cs",
+      "sha256": "56c5be4f62aa53a8a8f3077ccafed2f1ca52f5a6cbc957192e640941935503cc"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Runtime/DoomKeyButton.cs.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Runtime/DoomKeyButton.cs.meta",
+      "sha256": "82183a529243fdc680ab2f057ad7c92542c533351d4d3d5482f7484612222d93"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Runtime/DoomLicenseBoard.cs",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Runtime/DoomLicenseBoard.cs",
+      "sha256": "d135cfc327f384d17849c3e628177feac2622d658e5fa1496cc2f88e858dffa0"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Runtime/DoomLicenseBoard.cs.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Runtime/DoomLicenseBoard.cs.meta",
+      "sha256": "8e012fcd52295ae1a49926ee28a12e67400a4c18efda1c53088eaf801cf0acbe"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Runtime/DoomLicenseButton.cs",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Runtime/DoomLicenseButton.cs",
+      "sha256": "75305909b257ceabac91988b14654711eab00a20c19d755c4321395a2cf4d308"
+    },
+    {
+      "source": "Tools/Doom/source-overlay/doom_payload/unity/Runtime/DoomLicenseButton.cs.meta",
+      "target": "Tools~/Doom/source-overlay/doom_payload/unity/Runtime/DoomLicenseButton.cs.meta",
+      "sha256": "021a5256dcd412518d803413dbddbd4fb586c2548f8007dbd0019c0a71d8a525"
+    },
+    {
+      "source": "Tools/ThirdParty/Dial-source/Dial.cs",
+      "target": "Tools~/ThirdParty/Dial-source/Dial.cs",
+      "sha256": "a97bd5f653632171402960e9c85938dd97e168d2541fc8c48bad5d2d8beb1268"
+    },
+    {
+      "source": "Tools/ThirdParty/Dial-source/LICENSE-STATEMENT.md",
+      "target": "Tools~/ThirdParty/Dial-source/LICENSE-STATEMENT.md",
+      "sha256": "7431868acf6c6e4bf4848816e70e99dc1d3d3366d1ab36879dee52c0e4d9e9b6"
+    },
+    {
+      "source": "Tools/ThirdParty/Dial-source/SHA256SUMS.txt",
+      "target": "Tools~/ThirdParty/Dial-source/SHA256SUMS.txt",
+      "sha256": "ad49ecd7190c395c3c16007201ba3d1e4f6e0d90f6987efdae17971328c11944"
+    },
+    {
+      "source": "Tools/ThirdParty/rvc-source-tools/AutoImport.cs",
+      "target": "Tools~/ThirdParty/rvc-source-tools/AutoImport.cs",
+      "sha256": "b39dabcba1ec8cfe36ce7792ea57f399b8f379ad0a3b0ba7eef6e17b235f4a97"
+    },
+    {
+      "source": "Tools/ThirdParty/rvc-source-tools/ExportState.cs",
+      "target": "Tools~/ThirdParty/rvc-source-tools/ExportState.cs",
+      "sha256": "4c8554d3efa08bbcbc09327d10fe7cccfcde7fe3064c5eb0f1285dc45a0c9b8d"
+    },
+    {
+      "source": "Assets/NewWorld/Audio.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Audio.meta",
+      "sha256": "5a68606994a4a8bfdfef8eb27654e2bc749752ffd054cd287a7101a5097f4755"
+    },
+    {
+      "source": "Assets/NewWorld/Editor.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Editor.meta",
+      "sha256": "2d7df30e0493f5f492869d942a5da2f893113d5517ded837d90d50ad9105f90b"
+    },
+    {
+      "source": "Assets/NewWorld/Materials.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Materials.meta",
+      "sha256": "4caade6b8dc739b2a6f0e4aac8c945c1e9495d1abe97184d8dcf2136ca70ea5e"
+    },
+    {
+      "source": "Assets/NewWorld/Prefabs.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Prefabs.meta",
+      "sha256": "ac29190e3f5a6e651a6ba7dd5b855812c0c564d6d33a3d26bf8e0f17fac3e3ce"
+    },
+    {
+      "source": "Assets/NewWorld/Scenes.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Scenes.meta",
+      "sha256": "ffde7b568de00b77017c257dc051e9698d69d2a0da9b0d0e997d68bc1cac63b9"
+    },
+    {
+      "source": "Assets/NewWorld/Scripts.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Scripts.meta",
+      "sha256": "30ba98117f70d1284cde370fdeafef87449bebfba09b57e4ce46d31d925eb21d"
+    },
+    {
+      "source": "Assets/NewWorld/Textures.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Textures.meta",
+      "sha256": "48a7d3a993b5bc7e6d9fd1ac293bf1561bac3c4879b068eef1f873c4c9b52189"
+    },
+    {
+      "source": "Assets/NewWorld/Audio/.gitkeep",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Audio/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "Assets/NewWorld/Editor/DialImportRepair.cs",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Editor/DialImportRepair.cs",
+      "sha256": "b9417ccd980322fc437f05925a93370c211051c86836e0903ad72bf35ead75eb"
+    },
+    {
+      "source": "Assets/NewWorld/Editor/DialImportRepair.cs.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Editor/DialImportRepair.cs.meta",
+      "sha256": "1b173b41908a98c397698a377a41ddb05266a5ed19b229ed488d7f1247d34f32"
+    },
+    {
+      "source": "Assets/NewWorld/Editor/NewWorldPackageInstaller.cs",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Editor/NewWorldPackageInstaller.cs",
+      "sha256": "a4b2dda6fd33d7b7ad3eef59faab12a2388bfc29fa56aed3d545359382d9c9d7"
+    },
+    {
+      "source": "Assets/NewWorld/Editor/NewWorldPackageInstaller.cs.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Editor/NewWorldPackageInstaller.cs.meta",
+      "sha256": "3bf9156b441c75b809f48a77c47b2a7c3b77357bcc25afe637de40e95e17ea17"
+    },
+    {
+      "source": "Assets/NewWorld/Editor/NewWorldPackageValidation.cs",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Editor/NewWorldPackageValidation.cs",
+      "sha256": "71178db18ff6baef3da0b17f3aab1de0076c5ac57f1fad878f75908d3889f8b6"
+    },
+    {
+      "source": "Assets/NewWorld/Editor/NewWorldPackageValidation.cs.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Editor/NewWorldPackageValidation.cs.meta",
+      "sha256": "b2e96b4a8bfa8ddc9cd669299bcb448cdd461a4c5e4e0d33b9f234f7f550e658"
+    },
+    {
+      "source": "Assets/NewWorld/Editor/NewWorldPreparation.cs",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Editor/NewWorldPreparation.cs",
+      "sha256": "8826cf70dcbf0294de0f97e565df9849f6987ab91354030963aa5d25fe539f66"
+    },
+    {
+      "source": "Assets/NewWorld/Editor/NewWorldPreparation.cs.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Editor/NewWorldPreparation.cs.meta",
+      "sha256": "88007d60477c46ea0e8995a2f647e97d0bbb06b2060e3d383049a9211d20ad77"
+    },
+    {
+      "source": "Assets/NewWorld/Editor/RvcImportRepair.cs",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Editor/RvcImportRepair.cs",
+      "sha256": "446b38b0b565902f90d0feec6b21fe6bfec7339e21d5dcf3a153b140c11d90b2"
+    },
+    {
+      "source": "Assets/NewWorld/Editor/RvcImportRepair.cs.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Editor/RvcImportRepair.cs.meta",
+      "sha256": "d412449a60252d93fb839c555852fb49ece0fa0ec05f4fc25ebf872e5a2ba4a6"
+    },
+    {
+      "source": "Assets/NewWorld/Materials/NewWorldFloor.mat",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Materials/NewWorldFloor.mat",
+      "sha256": "221cb240da5483b150b2c83dcdc38b64b13dc2fe2feddc955eb553e527ce3e17"
+    },
+    {
+      "source": "Assets/NewWorld/Materials/NewWorldFloor.mat.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Materials/NewWorldFloor.mat.meta",
+      "sha256": "bb83cdaa700099dc1bfcadcc5d4741f3b744caf6b0ea885c23352978abff224b"
+    },
+    {
+      "source": "Assets/NewWorld/Prefabs/.gitkeep",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Prefabs/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "Assets/NewWorld/Scenes/NewWorld.unity",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Scenes/NewWorld.unity",
+      "sha256": "bcbd3f5979573e9d7be7aaf5fc3beae0fbd9a44a16949ac05978d0058d0b9f88"
+    },
+    {
+      "source": "Assets/NewWorld/Scenes/NewWorld.unity.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Scenes/NewWorld.unity.meta",
+      "sha256": "55dfd5898a259cec1a218e092258190f27e7256286e62eb3e4a7ece555bbfa48"
+    },
+    {
+      "source": "Assets/NewWorld/Scripts/.gitkeep",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Scripts/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "Assets/NewWorld/Textures/.gitkeep",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld/Textures/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "Assets/NewWorld.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/NewWorld.meta",
+      "sha256": "cd2bfc70d80889c16a0fbebad0f4f082a734736a04692d3e778ef2bc18d38715"
+    },
+    {
+      "source": "Assets/Gizmos/LTCGI_Screen_Gizmo.png",
+      "target": "Samples~/OriginalWorldAdditions/Assets/Gizmos/LTCGI_Screen_Gizmo.png",
+      "sha256": "1c80c2a7ef7dc305614bbfd92a88ad7398677b6328945fa4df25444be955d12c"
+    },
+    {
+      "source": "Assets/Gizmos/LTCGI_Screen_Gizmo.png.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/Gizmos/LTCGI_Screen_Gizmo.png.meta",
+      "sha256": "9a0b2f3dea245ea0cde8a734ef40fc79b941994d1d2fb4496bac181021cb4d15"
+    },
+    {
+      "source": "Assets/Gizmos.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/Gizmos.meta",
+      "sha256": "0d22cf89dde19e3e09dc50f65a789e0cf24dff50331309c82c5f819ebbb7b29f"
+    },
+    {
+      "source": "Assets/_pi_/_LTCGI.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/_pi_/_LTCGI.meta",
+      "sha256": "b09e44a011ad2a8d3580b6c6a9b165230c0564f64a829c9c7e85fd8ca9b96d69"
+    },
+    {
+      "source": "Assets/_pi_/_LTCGI/Shaders.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/_pi_/_LTCGI/Shaders.meta",
+      "sha256": "be846f0b13e887c10d5299e28f2bb249f8bdd721634cd9fca1567cfbb7128338"
+    },
+    {
+      "source": "Assets/_pi_/_LTCGI/Shaders/LTCGI.cginc",
+      "target": "Samples~/OriginalWorldAdditions/Assets/_pi_/_LTCGI/Shaders/LTCGI.cginc",
+      "sha256": "c2fe396fd9a3875bd861b6dc719bd5af0b6e171c6f3de72ffe23afa96ea54510"
+    },
+    {
+      "source": "Assets/_pi_/_LTCGI/Shaders/LTCGI.cginc.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/_pi_/_LTCGI/Shaders/LTCGI.cginc.meta",
+      "sha256": "b972ee97e1c109202d5d7eabb622f9e077375b68c912bb7f28f3d187a3b2754f"
+    },
+    {
+      "source": "Assets/_pi_.meta",
+      "target": "Samples~/OriginalWorldAdditions/Assets/_pi_.meta",
+      "sha256": "b2293b54d138a1e715c6b8e8fb651b27de35af756c8c891b19e8ec47a24bb2ce"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+/cache/
+/build/
+*.wad
+rawwad*.c
+baked_*_data.c
+__pycache__/

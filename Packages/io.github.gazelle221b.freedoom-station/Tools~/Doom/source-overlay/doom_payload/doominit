@@ -1,0 +1,11 @@
+#!/bin/sh
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin
+mount -t devtmpfs devtmpfs /dev
+mount -t proc proc /proc
+mount -t sysfs sysfs /sys
+mount -t tmpfs tmpfs /tmp
+cd /
+echo 'RVC_DOOM_READY: run ./emdoom -warp 1 1'
+while true; do
+    getty -n -l /bin/sh 0 /dev/hvc0
+done

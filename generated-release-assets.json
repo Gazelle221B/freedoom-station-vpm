@@ -1,0 +1,178 @@
+{
+  "changes": [
+    {
+      "target": "Doom/DoomControl.asset",
+      "previousSha256": "5dbbdc3c6ad0bfc272d1de5a5a13141ab2a92be449734652b167663926f3d826",
+      "sha256": "ca1f26807c104648a848e789aab6b73b2182a07837f29b3650a5bfeb8f141dfc",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "Doom/DoomInputAck.asset",
+      "previousSha256": "0233a4d121f8ba66eb05bcf4c8c1e613b30387688d9d0f44524fc84d20fa1e55",
+      "sha256": "2b3417c4b5b98a17b961d9414a52c211a74504f01ce6b3dc3d2a0716a16909cb",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "Doom/DoomKeyButton.asset",
+      "previousSha256": "5d114336fd1ce5c8004b57714e2447761720122977b536bac442a177c4929ae7",
+      "sha256": "7450e3241f275b2f1fc9621d7ad293902e25dd6bf5fd0831af0c9e9a8c1091f5",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "SerializedUdonPrograms/151287bc17337e140a9267d65b905017.asset",
+      "previousSha256": "95846cfa0287ace1861cdd115ffb75f2aa4065240b2da6eed22f1cb006c41d47",
+      "sha256": "83df969339a88ba7032094aa0202ae6601bd00844287c639f0b94361815b2fa2",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "SerializedUdonPrograms/2c946f88bdb3ec94593852e93003b117.asset",
+      "previousSha256": "e3a6c7b964d0835e5ddb2e3961cc8787b2b9577c1a4cc1047ca90ab3e9722774",
+      "sha256": "66d771b73ab434a4570efb9cc74df1988ed4939e8342232cb935a518fb041745",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "SerializedUdonPrograms/33431044bab34ba44aa4e1ae2c039762.asset",
+      "previousSha256": "e6d7f77476725bd0ab3a7ad7ac3cbc26a3034639ca532e1aeec1c425b4927af4",
+      "sha256": "5fe2965e09609f3af3d14c5470b08bb81d4d1cc93a5208a3e1afd95af3743ff9",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "SerializedUdonPrograms/391b5e5315805c0489a96322f8580075.asset",
+      "previousSha256": "07cde84639c5a302f3e0fc3d15e79538cca49bac87a9f1fb5311b07c4629936c",
+      "sha256": "1d9dfc1ac885037e5b7b967ca34122761e32935a12948d5cf24c859fa244b9fd",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "SerializedUdonPrograms/3cb94c853f50fb9408cacf57b1e2c401.asset",
+      "previousSha256": "96dd1a316f994d585d17b2f9c6cac894b5d0980d3de54fc5d4449238467ac0e8",
+      "sha256": "bd5b3669361f2f213bcbdb338f6da1f1f1bfcf69d923ea3ceb8f569c59884eb1",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "SerializedUdonPrograms/4ae4a0e40c47621469a19968e15c1a65.asset",
+      "previousSha256": "d5fbb76fc1afcab0c5f00220961bef10a51637dd6d42838d398ed032327315bb",
+      "sha256": "0564ef9dca5b06fa14b9d4a33622d068b85e7e9f2a82637a0f01721104042b65",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "SerializedUdonPrograms/61ea095832bbe7443816499d2e731629.asset",
+      "previousSha256": "b670520f26319289ae6b8bd46dc037fa7f54bd2dfe2155f2edd48240d3cec42f",
+      "sha256": "16328d817d4dbfd2aa1ef4ca78f859b4a14f9e268aeb0d095f7ee32e50af961a",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "SerializedUdonPrograms/62f24f4d04472054aaabb551dea679f4.asset",
+      "previousSha256": "26b1f2e1c99cc7d181bc21de13cc0aeefcca84725da036e91411cfb59789ae63",
+      "sha256": "1a0ddd2791bb6a0e0d2a1f17aeda487a2d590dde6ce5ab24757dffe6daa80f88",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "SerializedUdonPrograms/65088335e29edbe46ac6a7c7909a560b.asset",
+      "previousSha256": "bfcf719f527bbbf15e0da9ad99cfafc6c613c62393f6232663caa74a48fa9819",
+      "sha256": "558f8dd0fc570c679e8420a10e55c6f8b46fab68ece47daae4fc90262719fc1e",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "SerializedUdonPrograms/8c616d737aeab2c44a64763eb46d4cfd.asset",
+      "previousSha256": "1245a2f19bb248894c9cb8e793b2698b9eae98af26b23f5777252bd7f347ce86",
+      "sha256": "a4a0947019594748de31e071529f7454760c8a007a8ac39e042875b55e9ec2bb",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "SerializedUdonPrograms/98506a2a5f93e8f4eaa02cbed74119ed.asset",
+      "previousSha256": "656420ef1fb483f0d5a6956da5f8bee099ada09eb9f7912469be3650fe37c4b8",
+      "sha256": "38b459515c26c7b48db2dc1ff3ebb73681bdd989397f28f3f332d7c32869d50f",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "SerializedUdonPrograms/cbe5bb0f42ee0cf4f8674f11b5cb1133.asset",
+      "previousSha256": "f6da6c1f0853bfc09cdc27d8c497efaecce25ae3f66c16dd141d37d9dca0d87a",
+      "sha256": "bbae9a4a112f1d67e09bd31f8e03d9d74740baa6dd303fe0c1f03dac459e167d",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "SerializedUdonPrograms/cd459bc2bd7e12f409e7baaea2254924.asset",
+      "previousSha256": "485e5e6442404e5ca2e72050c82cd829bc45d5324987d0d629a4fb4bcc30c5ab",
+      "sha256": "18ddf7936905896e75e4f68252dbbcb6ccc7dcdef39c56755df59f78b3bda3c3",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "SerializedUdonPrograms/ec09ab0943a811149aad596e62d34b75.asset",
+      "previousSha256": "1dc77c6e38cd7a2af36fd0c7fe191e1a07e0ec549df0d516ad93015143329709",
+      "sha256": "4f259ad9e21cb36f5b03b41c72eabfc4779d673dc3a40dc951df4529f073df77",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "ThirdParty/PiMaker/Dial/Dial.asset",
+      "previousSha256": "87e0cb5e78acf5ab067a3b3439828413ffe5244e6bb251b026c0568601e13785",
+      "sha256": "7f58c2fd6422b9c0b660f69d756430a5c9c7cea3082b271b0519bc22ac0d8bb2",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "ThirdParty/PiMaker/Dial/DialDesktopInteractor.asset",
+      "previousSha256": "3df87a6182fae62d95f1bed3aec6dff5a384a5f1dd9a81535591567368b1f220",
+      "sha256": "3bf90f0f3460c1240e51ab0b5b3973d5eaf13aca0d9a47f8d0da00b0677a2d15",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "ThirdParty/PiMaker/Dial/DialVRInteractor.asset",
+      "previousSha256": "a2c0ca4c55cab039794620624d34d3bc326d5201d79c8567a558ccf2170feffc",
+      "sha256": "43a3a150f35fc80271e93b82a9b451e83fd3fc840bd73f6114df29db23352c04",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "ThirdParty/PiMaker/rvc/KeyboardManager2.asset",
+      "previousSha256": "a1e4decf9fc40a5d7df7c24c20944d480abb19c911df7c60c5c0a25a0ae2efa7",
+      "sha256": "1bc949a08ecb389f65c7a1b5aeb2d67093318d285d88a21af6e0ac4ac0c5281b",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "ThirdParty/PiMaker/rvc/NixControl.asset",
+      "previousSha256": "f6e8b50cdc693657ab6a070df2b8f50e4118677e7049f3b082d057bada962726",
+      "sha256": "8fbfb9e1cfb7af5dac6c20938ad4ae1b1a523e5a3486b87acd138d380acac6e0",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "ThirdParty/PiMaker/rvc/NixDebug.asset",
+      "previousSha256": "6974d1259b5f45f30bc08b687a5c6f5ab0d898bbbcd74a41f3a8a1673c7fd48c",
+      "sha256": "7e5b0b101440b276a28db4571fa46311c7267f777ef5ed7b5654530848cb28eb",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "ThirdParty/PiMaker/rvc/NixProgramLoader.asset",
+      "previousSha256": "f3bd8c84cb0b67394999b25b5c841f65aa55b1409c56bb81c294154dd794548d",
+      "sha256": "0144d8bb24698eda087582018e0d73a6d5f8a8edbf120522d3e397e1e792acdf",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "ThirdParty/PiMaker/rvc/NixStep.asset",
+      "previousSha256": "26a9a1d1c865b7a82fd365339af01c97dd32f880ad6f9c6e25a230bcb2c8d7a0",
+      "sha256": "07477c37edb2e1b7b41245654621a0dc7d52359d6715e6cda895a514b087aaa9",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "ThirdParty/PiMaker/rvc/RvcRunSwitch.asset",
+      "previousSha256": "d934e351c3dae6da79d3e23acd527d8d68ce1097d50ccf5fd4574bf1dad5da4b",
+      "sha256": "9917e2e791f2d39c33eb303a8fe0fa12ede9826acc900e37713c280ffd935c1f",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "Doom/LicenseBoard/DoomLicenseBoard.asset",
+      "previousSha256": "dff453aba12255653263e1bee563d7872a0574c8e369c27544f653ee830829ad",
+      "sha256": "33b9265d4b975b12decfdf3a1d2602dc9a92b3164fdd709bb33d78eb0223e42f",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "Doom/LicenseBoard/DoomLicenseButton.asset",
+      "previousSha256": "1b6e6b17f35de293e220ca960af5ce84a472e623e8a610a34ade613db2a5155d",
+      "sha256": "17cb5a9235f3cf3abb93ec670b3cd572278e742a36cd524bf2724d8c8f295091",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    },
+    {
+      "target": "Templates~/Doom/DoomStation.prefab",
+      "previousSha256": "b41ee69d1e878ac38521ccf47c6d59dabfc2484e158923350f7588138de41fb7",
+      "sha256": "a0fffcf26a4a366087e0a83ecf0820fced2ea843150f6ead6f79808027b5c551",
+      "purpose": "Unity 2022.3.22f1 Udon recompilation or license-board regeneration for v0.1.0"
+    }
+  ]
+}

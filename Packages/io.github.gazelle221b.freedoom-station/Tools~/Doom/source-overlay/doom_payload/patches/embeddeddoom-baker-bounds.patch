@@ -1,0 +1,56 @@
+--- a/src/d_main.c
++++ b/src/d_main.c
+@@ -33,6 +33,7 @@
+ 
+ #ifdef NORMALUNIX
+ #include <stdio.h>
++#include <stddef.h>
+ #include <stdlib.h>
+ #include <unistd.h>
+ #include <sys/types.h>
+@@ -948,9 +949,11 @@
+ 	{
+ 		int j;
+ 		fprintf( bf, "static const unsigned char textureData%d[] = { ", i );
+-		for( j = 0; j < sizeof( texpatch_t ) * textures[i]->patchcount + 14; j++ )
++		for( j = 0; j < offsetof(texture_t, patches) + sizeof( texpatch_t ) * textures[i]->patchcount; j++ )
+ 		{
+-			fprintf( bf, "0x%02x, ", ((unsigned char*)textures[i])[j] );
++			/* Do not serialize the alignment padding after patchcount. */
++			int padding = j >= offsetof(texture_t, patchcount) + sizeof(textures[i]->patchcount) && j < offsetof(texture_t, patches);
++			fprintf( bf, "0x%02x, ", padding ? 0 : ((unsigned char*)textures[i])[j] );
+ 		}
+ 		fprintf( bf, "};\n" );
+ 	}
+@@ -1102,7 +1105,7 @@
+ 	fprintf( bf, "};\n" );
+ 
+ 	fprintf( bf, "const unsigned char translationtables[] = {" );
+-	for( j = 0; j < 256*3+255; j++ )
++	for( j = 0; j < 256*3; j++ )
+ 	{
+ 		if( (j & 0x0f) == 0 ) fprintf( bf, "\n\t" );
+ 		fprintf( bf, "0x%02x, ", translationtables[j] );
+@@ -1180,8 +1183,8 @@
+ 			numvertexes_baked[i] = numvertexes;
+ 			numnodes_baked[i] = numnodes;
+ 
+-			fprintf( bf, "static const vertex_t __vertexes%d[%d] = { ", i, numvertexes * sizeof( vertex_t ) );
+-			for( j = 0; j < numvertexes * sizeof( vertex_t ); j++ )
++			fprintf( bf, "static const vertex_t __vertexes%d[%d] = { ", i, numvertexes );
++			for( j = 0; j < numvertexes; j++ )
+ 				fprintf( bf, " { 0x%08x, 0x%08x }, ",  vertexes[j].x, vertexes[j].y );
+ 			fprintf( bf, "};\n" );
+ 
+--- a/src/r_data.c
++++ b/src/r_data.c
+@@ -616,7 +616,8 @@
+ 	length = W_LumpLength (lump) + 255; 
+ 	colormaps = Z_Malloc (length, PU_STATIC, 0); 
+ 	colormaps = (byte *)( ((int)colormaps + 255)&~0xff); 
+-		colormapsize = length;
++		/* Modified 2026-10-04: serialize only initialized lump bytes. */
++		colormapsize = W_LumpLength (lump);
+ 	W_ReadLump (lump,colormaps); 
+ #endif
+ }

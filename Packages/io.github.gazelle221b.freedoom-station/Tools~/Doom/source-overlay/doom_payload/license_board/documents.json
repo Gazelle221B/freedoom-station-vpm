@@ -1,0 +1,178 @@
+{
+  "sourceUrl": "https://github.com/Gazelle221B/freedoom-station-vpm/tree/v0.1.0",
+  "payloadSha256": "14f9859aafbeb8b1d8823b8ebe160d31c57e40c39ded87583e65a8815ca689d9",
+  "documents": [
+    {
+      "file": "00.txt",
+      "title": "日本語の案内",
+      "sha256": "9a70fb23fd29c4105dbeaf8e0253388b10689b25aeca86874e581e589b441a22",
+      "utf8Bom": false,
+      "bytes": 1284,
+      "source": "Project-authored Japanese viewer guide, updated for public source release 2026-10-07; original retained in History/00-pre-publication.txt",
+      "sourceSha256": "9a70fb23fd29c4105dbeaf8e0253388b10689b25aeca86874e581e589b441a22",
+      "previousSha256": "ef784707437b0ea2d54d3847b004686696c0c69e2bd085a09a54c2c3c3ae4b39"
+    },
+    {
+      "file": "01.txt",
+      "title": "Freedoom COPYING — BSD-3-Clause",
+      "sha256": "7c62f2c520769c798774f416637eec4921e5f0aafdac1245ae7c8a8cf65fe102",
+      "utf8Bom": true,
+      "bytes": 1644,
+      "source": "accepted corresponding-source/production-notices/freedoom/COPYING.txt",
+      "sourceSha256": "7c62f2c520769c798774f416637eec4921e5f0aafdac1245ae7c8a8cf65fe102"
+    },
+    {
+      "file": "02.txt",
+      "title": "Freedoom CREDITS",
+      "sha256": "72364333d295c598d75ef9553d3b3661ad0b60e27271c87b7637c74b2f46918a",
+      "utf8Bom": true,
+      "bytes": 15872,
+      "source": "accepted corresponding-source/production-notices/freedoom/CREDITS.txt",
+      "sourceSha256": "72364333d295c598d75ef9553d3b3661ad0b60e27271c87b7637c74b2f46918a"
+    },
+    {
+      "file": "03.txt",
+      "title": "Freedoom CREDITS-MUSIC",
+      "sha256": "2bb77677bbc4e587bba44ccb6514ee0f5397c7bb8ae9580b9188d3d6a57c0a31",
+      "utf8Bom": true,
+      "bytes": 9388,
+      "source": "accepted corresponding-source/production-notices/freedoom/CREDITS-MUSIC.txt",
+      "sourceSha256": "2bb77677bbc4e587bba44ccb6514ee0f5397c7bb8ae9580b9188d3d6a57c0a31"
+    },
+    {
+      "file": "04.txt",
+      "title": "embeddeddoom LICENSE.md",
+      "sha256": "535dcbe5209421fd7e63603161ea5d1ba539c30e2e6a74bbbad479170a65eaf8",
+      "utf8Bom": false,
+      "bytes": 5711,
+      "source": "accepted corresponding-source/production-notices/emdoom/embeddeddoom-LICENSE.md",
+      "sourceSha256": "535dcbe5209421fd7e63603161ea5d1ba539c30e2e6a74bbbad479170a65eaf8"
+    },
+    {
+      "file": "05.txt",
+      "title": "GNU GPL — Version 2, June 1991",
+      "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670",
+      "utf8Bom": false,
+      "bytes": 17992,
+      "source": "accepted corresponding-source/production-notices/emdoom/DOOM-GPL-2.0.txt",
+      "sourceSha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670"
+    },
+    {
+      "file": "06.txt",
+      "title": "Linux COPYING — version 2 only",
+      "sha256": "fb5a425bd3b3cd6071a3a9aff9909a859e7c1158d54d32e07658398cd67eb6a0",
+      "utf8Bom": false,
+      "bytes": 496,
+      "source": "linux-source.tar.gz member linux/COPYING (archive sha256 616d965145631c016eac1c46c5203fac09f17e50d8a03f1dca56810b92c6fa23)",
+      "sourceSha256": "fb5a425bd3b3cd6071a3a9aff9909a859e7c1158d54d32e07658398cd67eb6a0"
+    },
+    {
+      "file": "07.txt",
+      "title": "Linux LICENSES/preferred/GPL-2.0",
+      "sha256": "f6b78c087c3ebdf0f3c13415070dd480a3f35d8fc76f3d02180a407c1c812f79",
+      "utf8Bom": false,
+      "bytes": 18729,
+      "source": "linux-source.tar.gz member linux/LICENSES/preferred/GPL-2.0",
+      "sourceSha256": "f6b78c087c3ebdf0f3c13415070dd480a3f35d8fc76f3d02180a407c1c812f79"
+    },
+    {
+      "file": "08.txt",
+      "title": "Linux syscall exception",
+      "sha256": "8e378ab93586eb55135d3bc119cce787f7324f48394777d00c34fa3d0be3303f",
+      "utf8Bom": false,
+      "bytes": 1258,
+      "source": "linux-source.tar.gz member linux/LICENSES/exceptions/Linux-syscall-note",
+      "sourceSha256": "8e378ab93586eb55135d3bc119cce787f7324f48394777d00c34fa3d0be3303f"
+    },
+    {
+      "file": "09.txt",
+      "title": "BusyBox LICENSE — version 2 only",
+      "sha256": "bbfc9843646d483c334664f651c208b9839626891d8f17604db2146962f43548",
+      "utf8Bom": false,
+      "bytes": 18348,
+      "source": "accepted corresponding-source/production-notices/busybox/LICENSE",
+      "sourceSha256": "bbfc9843646d483c334664f651c208b9839626891d8f17604db2146962f43548"
+    },
+    {
+      "file": "10.txt",
+      "title": "OpenSBI — The 2-Clause BSD License",
+      "sha256": "82d13fb1bf6bb162629deeea9eb9c117e74548d3b707e478967691fe79a68e21",
+      "utf8Bom": false,
+      "bytes": 1396,
+      "source": "opensbi-source.tar.gz member opensbi/COPYING.BSD (archive sha256 16491d9d0cb7980eb8c5a2ee694f0c2e25ff6a659c41a705d4b4868563f01404)",
+      "sourceSha256": "82d13fb1bf6bb162629deeea9eb9c117e74548d3b707e478967691fe79a68e21"
+    },
+    {
+      "file": "11.txt",
+      "title": "OpenSBI libfdt — Third Party Notices",
+      "sha256": "87ef9b9a7d4d83f10c0e4d839dc35fae7e6741f0715618c6a294fc9cd1d3e2e2",
+      "utf8Bom": false,
+      "bytes": 576,
+      "source": "opensbi-source.tar.gz member opensbi/ThirdPartyNotices.md",
+      "sourceSha256": "87ef9b9a7d4d83f10c0e4d839dc35fae7e6741f0715618c6a294fc9cd1d3e2e2"
+    },
+    {
+      "file": "12.txt",
+      "title": "rvc — MIT License",
+      "sha256": "3746facc32c7217f81261889cefe6ab241ce4b745eee5845c9b1ea8f00bcd935",
+      "utf8Bom": false,
+      "bytes": 1064,
+      "source": "rvc-source.tar.gz member rvc/LICENSE (archive sha256 38e6dc634086042035135ff9bdb46aca2257df1cd4511d263e116243e6bc08ce)",
+      "sourceSha256": "3746facc32c7217f81261889cefe6ab241ce4b745eee5845c9b1ea8f00bcd935"
+    },
+    {
+      "file": "13.txt",
+      "title": "UdonSharp — MIT License",
+      "sha256": "8e8c8829fe027f3af18125fe3f62645affc73de3a46cc37fc25a272db62f5df1",
+      "utf8Bom": false,
+      "bytes": 1134,
+      "source": "https://api.github.com/repos/vrchat-community/UdonSharp/git/blobs/8227cf426de7107e69efac8bca673c1f8b88e8f5",
+      "sourceSha256": "8e8c8829fe027f3af18125fe3f62645affc73de3a46cc37fc25a272db62f5df1"
+    },
+    {
+      "file": "14.txt",
+      "title": "libfdt source notice — BSD-2-Clause option",
+      "sha256": "25dda933e10d9873327b2cc337cfb6edf1bb4d7e6714484a7505abcce1ed355f",
+      "utf8Bom": false,
+      "bytes": 202,
+      "source": "OpenSBI 7aa6c9aa: lib/utils/libfdt/libfdt.h bytes [0,202)",
+      "sourceSha256": "5d0c45df7f5b21e3a3e79e42b61c7c92b4be5683fe3776d317274d4bc343e6bc"
+    },
+    {
+      "file": "15.txt",
+      "title": "embeddeddoom preserved source notice",
+      "sha256": "2b29ea77d7657d49bd7059c7904a60a62f0f7fa90c443398545ec1e734f8b6ca",
+      "utf8Bom": false,
+      "bytes": 816,
+      "source": "embeddeddoom b52f80968: src/d_main.c bytes [0,816)",
+      "sourceSha256": "a15abd5b380d07797e696e03932e4c28e2418b12ab1f7c88bdfb5702b357a53c"
+    },
+    {
+      "file": "16.txt",
+      "title": "Payload modifications — 2026-10-04",
+      "sha256": "967939c61a1ec8f1bc1580cd9a1d9fdd79b3938314375d336e05b4983c08b136",
+      "utf8Bom": false,
+      "bytes": 496,
+      "source": "doom_payload/licenses/PAYLOAD-MODIFICATIONS.txt",
+      "sourceSha256": "967939c61a1ec8f1bc1580cd9a1d9fdd79b3938314375d336e05b4983c08b136"
+    },
+    {
+      "file": "17.txt",
+      "title": "Font — Noto Sans JP SIL OFL Version 1.1",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "utf8Bom": false,
+      "bytes": 4388,
+      "source": "Original OFL-NotoSansJP.txt from pinned google/fonts; provenance in FONT.json",
+      "sourceSha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "file": "18.txt",
+      "title": "Font — Noto Sans SIL OFL Version 1.1",
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "utf8Bom": false,
+      "bytes": 4396,
+      "source": "Original OFL-NotoSans.txt from pinned google/fonts; provenance in FONT.json",
+      "sourceSha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    }
+  ]
+}

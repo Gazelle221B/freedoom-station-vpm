@@ -1,0 +1,23 @@
+{
+  "name": "FreedoomStation.Editor",
+  "references": [
+    "FreedoomStation.Runtime",
+    "UdonSharp.Runtime",
+    "UdonSharp.Editor",
+    "VRC.Udon",
+    "VRC.SDK3",
+    "VRC.SDK3.Editor",
+    "Unity.TextMeshPro",
+    "UnityEngine.UI",
+    "VRC.SDKBase.Editor",
+    "VRC.Udon.Editor",
+    "VRC.Udon.Serialization.OdinSerializer"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "UDON"
+  ]
+}

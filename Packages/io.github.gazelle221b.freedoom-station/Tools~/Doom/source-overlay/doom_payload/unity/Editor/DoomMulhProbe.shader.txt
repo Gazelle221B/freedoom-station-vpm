@@ -1,0 +1,52 @@
+// Calls the actual production M handlers, not a copy of their arithmetic.
+Shader "Hidden/DoomMulhProbe" {
+SubShader { Cull Off ZWrite Off ZTest Always Pass {
+CGPROGRAM
+#pragma target 5.0
+#pragma vertex vert_img
+#pragma fragment frag
+#include "UnityCG.cginc"
+StructuredBuffer<uint2> _Cases;
+uint _Division, _CaseWidth, _Canary, _FaultInjection;
+// Generated verbatim from production emu.h by Run(), with a minimal register
+// fixture. Avoids compiling unrelated MMU/cache functions in an arithmetic test.
+#include "DoomMProbeGenerated.cginc"
+uint4 frag(v2f_img i):SV_Target {
+    if(_Canary!=0) return uint4(0,0xffffffffu,0x80000000u,0x01020304u);
+    uint2 pos=uint2(i.pos.xy);
+    uint2 operands=_Cases[pos.x+pos.y*_CaseWidth];
+    cpu.xreg[1]=operands.x; cpu.xreg[2]=operands.y;
+    FormatR ins=(FormatR)0; ins.rs1=1; ins.rs2=2; ins.rd=3;
+    ins_ret ret=(ins_ret)0;
+    uint4 result;
+    if(_Division!=0) {
+        emu_div(0,ret,ins); result.x=ret.write_val;
+        emu_divu(0,ret,ins); result.y=ret.write_val;
+        emu_rem(0,ret,ins); result.z=ret.write_val;
+        emu_remu(0,ret,ins); result.w=ret.write_val;
+    } else {
+        emu_mulh(0,ret,ins); result.x=ret.write_val;
+        emu_mulhsu(0,ret,ins); result.y=ret.write_val;
+        emu_mulhu(0,ret,ins); result.z=ret.write_val;
+        emu_mul(0,ret,ins); result.w=ret.write_val;
+    }
+    if(_FaultInjection!=0) result.x^=1u;
+    return result;
+}
+ENDCG
+}
+Pass {
+CGPROGRAM
+#pragma target 5.0
+#pragma vertex vert_img
+#pragma fragment pack_result
+#include "UnityCG.cginc"
+Texture2D<uint4> _ProbeResult;
+uint _CaseWidth;
+float4 pack_result(v2f_img i):SV_Target {
+    uint2 p=uint2(i.pos.xy);
+    uint value=_ProbeResult[uint2(p.x%_CaseWidth,p.y)][p.x/_CaseWidth];
+    return float4(value&255,(value>>8)&255,(value>>16)&255,value>>24)/255.0;
+}
+ENDCG
+}}}

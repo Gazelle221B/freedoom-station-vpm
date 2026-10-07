@@ -1,0 +1,8 @@
+** text=auto eol=lf
+Packages/**/Tools~/Doom/source-overlay/** text eol=lf
+**/Documents/*.txt -text
+**/History/*.txt -text
+**/LicenseSDF.asset binary
+*.png binary
+*.fbx binary
+*.wav binary

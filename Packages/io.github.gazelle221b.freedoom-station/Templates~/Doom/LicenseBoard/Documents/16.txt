@@ -1,0 +1,9 @@
+rvc Freedoom payload modifications, 2026-10-04
+
+embeddeddoom b52f80968a25a90b2ab0cf6c97703876b2d56e59 is modified:
+UART ASCII display/input, E1M1 baking and strip selection, Freedoom retail
+rules and neutral startup notices, bounded vertex/COLORMAP/translation
+serialization and deterministic texture-header padding.
+The original copyright notices and GPL license are retained.
+Corresponding source includes the engine export, private patches, UART
+backend and complete generation/build scripts.

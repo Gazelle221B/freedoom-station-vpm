@@ -1,0 +1,88 @@
+{
+  "font": {
+    "family": "Rvc License Sans",
+    "subfamily": "Regular",
+    "postscript": "RvcLicenseSans-Regular",
+    "version": "Version 1.000",
+    "file": "RvcLicenseSans-Regular.ttf",
+    "sha256": "5f9f29690c4d777af2f49be493db37824ea1713a6a31df91ddda277c0cf7c3aa",
+    "bytes": 5769580,
+    "format": "static TrueType (glyf), no variable axes",
+    "static": true,
+    "cmapCodepoints": 16733,
+    "license": "SIL OFL 1.1 (derived work; both upstream OFL texts are shipped with the font)",
+    "generatedBy": "doom_payload/license_board/build_font.py",
+    "generatedDate": "2026-10-04",
+    "fontToolsVersion": "4.66.1"
+  },
+  "sources": [
+    {
+      "name": "Noto Sans JP",
+      "role": "Japanese base glyph set (covers the whole board document set except U+0160)",
+      "file": "NotoSansJP[wght].ttf",
+      "commit": "295d98a7a0c17c68f1341eaeea354e7960ea70d3",
+      "commitDate": "2022-11-03",
+      "url": "https://github.com/google/fonts/tree/295d98a7a0c17c68f1341eaeea354e7960ea70d3/ofl/notosansjp",
+      "rawUrl": "https://raw.githubusercontent.com/google/fonts/295d98a7a0c17c68f1341eaeea354e7960ea70d3/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf",
+      "sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+      "bytes": 9589900,
+      "axesPinned": {
+        "wght": 400
+      },
+      "license": "OFL-1.1",
+      "licenseFile": "OFL-NotoSansJP.txt",
+      "licenseFileSha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "version": "2.004-H2"
+    },
+    {
+      "name": "Noto Sans",
+      "role": "Adds the exact U+0160 (S WITH CARON) glyph and its composite dependencies that Noto Sans JP lacks",
+      "file": "NotoSans[wdth,wght].ttf",
+      "commit": "2984c575fdce412ee02b2baaba67672b9a9434d8",
+      "commitDate": "2024-11-20",
+      "url": "https://github.com/google/fonts/tree/2984c575fdce412ee02b2baaba67672b9a9434d8/ofl/notosans",
+      "rawUrl": "https://raw.githubusercontent.com/google/fonts/2984c575fdce412ee02b2baaba67672b9a9434d8/ofl/notosans/NotoSans%5Bwdth%2Cwght%5D.ttf",
+      "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+      "bytes": 2049096,
+      "axesPinned": {
+        "wdth": 100,
+        "wght": 400
+      },
+      "license": "OFL-1.1",
+      "licenseFile": "OFL-NotoSans.txt",
+      "licenseFileSha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "licenseRawUrl": "https://raw.githubusercontent.com/google/fonts/c92b209a838649c205a1565b5f28c1973e049659/ofl/notosans/OFL.txt"
+    }
+  ],
+  "derivation": {
+    "method": "fontTools instancer (wght 400 for JP; wdth 100, wght 400 for Noto Sans) to static, then glyf deepcopy of the U+0160 glyph (and its composite dependencies, prefixed 'rvc') from Noto Sans into Noto Sans JP, then name-table rename to 'Rvc License Sans' (no Noto/Source name retained)",
+    "script": "doom_payload/license_board/build_font.py",
+    "determinism": "Pinned, hash-verified inputs; instantiate variation deltas before removing tables; fixed head timestamps; two regenerated font files had identical SHA-256."
+  },
+  "coverage": {
+    "asOf": "2026-10-04",
+    "source": "doom_payload/license_board/Documents (19 files) + documents.json titles + GAME-STRINGS.md section 10.5 board text",
+    "unionCodepoints": 363,
+    "missingCodepoints": [],
+    "u0160SWithCaron": "covered",
+    "uiAdditions": {
+      "note": "checked: 'ソースの入手先（未公開）: SHA-256:　' (includes U+3000 IDEOGRAPHIC SPACE) and button candidates 前へ 次へ 戻る 閉じる 表示 詳細 ページ 目次 10/19",
+      "missing": []
+    }
+  },
+  "notes": "One renamed derived font face and one static TMP SDF atlas. The original U+0160 glyph is copied from the pinned Latin font without substitution. Both original OFL notices are documents 17 and 18.",
+  "atlas": {
+    "renderMode": "SDFAA",
+    "populationMode": "Static",
+    "width": 2048,
+    "height": 2048,
+    "format": "Alpha8",
+    "pointSize": 90,
+    "padding": 9,
+    "unicodeScalars": 245,
+    "glyphs": 245,
+    "formFeed": "U+000C mapped to existing space glyph; original form-feed bytes remain in page text",
+    "fallbackFonts": 0,
+    "sourceFontIncludedAtRuntime": false
+  }
+}
