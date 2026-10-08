@@ -602,6 +602,16 @@ ins_ret ins_select(uint ins_word, inout ins_ret ret) {
 }
 
 
+// _Time is constant during CPUTick. Keep the existing timer conversion and
+// per-instruction CLINT overwrite/IRQ order, but calculate the value once.
+// Reference: MichaelMoroz/ShaderEmu, experiments/rvc_opt (MIT).
+static uint pass_mtime_lo, pass_mtime_hi;
+void emulate_begin_pass() {
+    double mtime = (double)_Time.x * 1000000.0 * 0.1;
+    pass_mtime_lo = (uint)(floor(glsl_mod(mtime, 4294967296.0)));
+    pass_mtime_hi = (uint)(mtime / 4294967296.0);
+}
+
 void emulate() {
     uint ins_word = 0;
     ins_ret ret = ins_ret_noop();
@@ -681,9 +691,8 @@ void emulate() {
         mip_override |= MIP_MSIP;
     }
 
-    double mtime = (double)_Time.x * 1000000.0 * 0.1;
-    cpu.clint.mtime_lo = (uint)(floor(glsl_mod(mtime, 4294967296.0))); // & 0xffffffff
-    cpu.clint.mtime_hi = (uint)(mtime / 4294967296.0); // >> 32
+    cpu.clint.mtime_lo = pass_mtime_lo;
+    cpu.clint.mtime_hi = pass_mtime_hi;
 
     if ((cpu.clint.mtimecmp_lo != 0 || cpu.clint.mtimecmp_hi != 0) && (cpu.clint.mtime_hi > cpu.clint.mtimecmp_hi || (cpu.clint.mtime_hi == cpu.clint.mtimecmp_hi && cpu.clint.mtime_lo >= cpu.clint.mtimecmp_lo))) {
         mip_override |= MIP_MTIP;

@@ -1,0 +1,438 @@
+{
+  "date": "2026-10-08",
+  "mode": "VRChat Desktop local SDK test",
+  "cpu": "Intel Core i9-13900K",
+  "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "driver": "32.0.16.1714",
+  "clientEngine": "6000.0.67f1-DWR (6158d48dc694)",
+  "graphicsApi": "Direct3D 11",
+  "screenSetting": "1920x1080 windowed",
+  "fpsCapArgument": 1000,
+  "fpsCapArgumentResolvedInClientLog": true,
+  "tool": "Intel PresentMon Console 2.6.0, Authenticode signature verified",
+  "samplesPerBuild": 3,
+  "secondsPerSample": 30,
+  "shaderTickBudget": "16384 / divisor 4 (4096 per frame)",
+  "warmupMinimumSeconds": 600,
+  "warmupMinimumCapturedFrames": 60000,
+  "order": [
+    "candidate",
+    "baseline"
+  ],
+  "shaderSourceSha256": {
+    "main.shader": "920adeda30a538a4f1b234463ebd28e6bc92c8edd74dd7f520d49935da3a6203",
+    "src/mem.h": "f3992232b28b58f169e78f9cfb0bf887c09abf6dc933d6827c1db12810f0f087",
+    "src/emu.h": "999ea5df640d37cd084cc2ca34a01ac0ce218530378e30c98abc0620e919f9a5"
+  },
+  "baseline": {
+    "bundleSha256": "e355a41c7964fb05c3d5557dae4dc1c5fe869e15d3439d34a4232d51b64acb7c",
+    "warmupSeconds": 725.4733488,
+    "warmupCapturedFrames": 60447,
+    "localWorldLoaded": true,
+    "samples": [
+      {
+        "frames": 2622,
+        "averageFps": 87.70903723780171,
+        "frameMs": {
+          "valid": 2622,
+          "mean": 11.40133367658276,
+          "median": 11.275400000000001,
+          "p95": 12.9398,
+          "p99": 13.6466,
+          "distinctValues": 2511
+        },
+        "gpuBusyMs": {
+          "valid": 2622,
+          "mean": 8.146414225781847,
+          "median": 8.06145,
+          "p95": 9.288,
+          "p99": 9.574,
+          "distinctValues": 2463
+        },
+        "gpuTimeMs": {
+          "valid": 2622,
+          "mean": 9.164816781083143,
+          "median": 9.070049999999998,
+          "p95": 10.3552,
+          "p99": 10.7133,
+          "distinctValues": 2509
+        },
+        "cpuBusyMs": {
+          "valid": 2622,
+          "mean": 11.34197284515637,
+          "median": 11.22045,
+          "p95": 12.8677,
+          "p99": 13.5685,
+          "distinctValues": 2528
+        },
+        "cpuWaitMs": {
+          "valid": 2622,
+          "mean": 0.0593593058733791,
+          "median": 0.0557,
+          "p95": 0.083,
+          "p99": 0.1126,
+          "distinctValues": 502
+        },
+        "syncIntervals": {
+          "0": 2622
+        }
+      },
+      {
+        "frames": 2577,
+        "averageFps": 86.11790844964557,
+        "frameMs": {
+          "valid": 2577,
+          "mean": 11.61198661233993,
+          "median": 11.4871,
+          "p95": 13.0342,
+          "p99": 14.0354,
+          "distinctValues": 2479
+        },
+        "gpuBusyMs": {
+          "valid": 2577,
+          "mean": 8.150445634458674,
+          "median": 8.0679,
+          "p95": 9.2926,
+          "p99": 9.5558,
+          "distinctValues": 2441
+        },
+        "gpuTimeMs": {
+          "valid": 2577,
+          "mean": 9.215604462553356,
+          "median": 9.1211,
+          "p95": 10.4495,
+          "p99": 10.7676,
+          "distinctValues": 2446
+        },
+        "cpuBusyMs": {
+          "valid": 2577,
+          "mean": 11.54730818781529,
+          "median": 11.422,
+          "p95": 12.9584,
+          "p99": 13.9339,
+          "distinctValues": 2464
+        },
+        "cpuWaitMs": {
+          "valid": 2577,
+          "mean": 0.06467466045789678,
+          "median": 0.0611,
+          "p95": 0.0907,
+          "p99": 0.1145,
+          "distinctValues": 540
+        },
+        "syncIntervals": {
+          "0": 2577
+        }
+      },
+      {
+        "frames": 2618,
+        "averageFps": 87.57325069237226,
+        "frameMs": {
+          "valid": 2618,
+          "mean": 11.419011993888464,
+          "median": 11.3057,
+          "p95": 12.9675,
+          "p99": 13.9057,
+          "distinctValues": 2511
+        },
+        "gpuBusyMs": {
+          "valid": 2618,
+          "mean": 8.14420794499618,
+          "median": 8.0685,
+          "p95": 9.2465,
+          "p99": 9.5765,
+          "distinctValues": 2452
+        },
+        "gpuTimeMs": {
+          "valid": 2618,
+          "mean": 9.174930863254392,
+          "median": 9.0811,
+          "p95": 10.3606,
+          "p99": 10.7389,
+          "distinctValues": 2495
+        },
+        "cpuBusyMs": {
+          "valid": 2618,
+          "mean": 11.357463407181054,
+          "median": 11.2457,
+          "p95": 12.8863,
+          "p99": 13.8173,
+          "distinctValues": 2509
+        },
+        "cpuWaitMs": {
+          "valid": 2618,
+          "mean": 0.06155752482811307,
+          "median": 0.0571,
+          "p95": 0.0894,
+          "p99": 0.1249,
+          "distinctValues": 553
+        },
+        "syncIntervals": {
+          "0": 2618
+        }
+      }
+    ],
+    "aggregate": {
+      "frames": 7817,
+      "averageFps": 87.13306487937375,
+      "frameMs": {
+        "valid": 7817,
+        "mean": 11.47669947550211,
+        "median": 11.3575,
+        "p95": 12.979,
+        "p99": 13.8367,
+        "distinctValues": 6912
+      },
+      "gpuBusyMs": {
+        "valid": 7817,
+        "mean": 8.147004336702059,
+        "median": 8.0659,
+        "p95": 9.2722,
+        "p99": 9.5727,
+        "distinctValues": 6543
+      },
+      "gpuTimeMs": {
+        "valid": 7817,
+        "mean": 9.184947076883715,
+        "median": 9.0912,
+        "p95": 10.3908,
+        "p99": 10.7611,
+        "distinctValues": 6729
+      },
+      "cpuBusyMs": {
+        "valid": 7817,
+        "mean": 11.414852910323653,
+        "median": 11.2944,
+        "p95": 12.9077,
+        "p99": 13.7228,
+        "distinctValues": 6865
+      },
+      "cpuWaitMs": {
+        "valid": 7817,
+        "mean": 0.0618478060637073,
+        "median": 0.0581,
+        "p95": 0.0878,
+        "p99": 0.1155,
+        "distinctValues": 698
+      },
+      "syncIntervals": {
+        "0": 7817
+      }
+    },
+    "lostEtwEventsWarningCount": 0
+  },
+  "candidate": {
+    "bundleSha256": "8c208a904dbb98de430a4a50e0bea7404faea9ae9493d2ddc7e7bf9b1b6cd055",
+    "warmupSeconds": 853.8921877,
+    "warmupCapturedFrames": 63580,
+    "localWorldLoaded": true,
+    "samples": [
+      {
+        "frames": 2508,
+        "averageFps": 83.94521040711348,
+        "frameMs": {
+          "valid": 2508,
+          "mean": 11.912531937799043,
+          "median": 11.707049999999999,
+          "p95": 14.4421,
+          "p99": 16.1462,
+          "distinctValues": 2423
+        },
+        "gpuBusyMs": {
+          "valid": 2508,
+          "mean": 8.044551515151515,
+          "median": 8.09535,
+          "p95": 9.0624,
+          "p99": 9.3014,
+          "distinctValues": 2355
+        },
+        "gpuTimeMs": {
+          "valid": 2508,
+          "mean": 9.25806427432217,
+          "median": 9.24645,
+          "p95": 10.5361,
+          "p99": 11.9517,
+          "distinctValues": 2394
+        },
+        "cpuBusyMs": {
+          "valid": 2508,
+          "mean": 11.83522711323764,
+          "median": 11.6455,
+          "p95": 14.3137,
+          "p99": 16.0135,
+          "distinctValues": 2431
+        },
+        "cpuWaitMs": {
+          "valid": 2508,
+          "mean": 0.07731395534290271,
+          "median": 0.0636,
+          "p95": 0.1379,
+          "p99": 0.1823,
+          "distinctValues": 879
+        },
+        "syncIntervals": {
+          "0": 2508
+        }
+      },
+      {
+        "frames": 2474,
+        "averageFps": 82.67336993310822,
+        "frameMs": {
+          "valid": 2474,
+          "mean": 12.095793371059013,
+          "median": 11.798100000000002,
+          "p95": 14.9184,
+          "p99": 16.9849,
+          "distinctValues": 2397
+        },
+        "gpuBusyMs": {
+          "valid": 2474,
+          "mean": 8.081806345998384,
+          "median": 8.12975,
+          "p95": 9.0549,
+          "p99": 9.2931,
+          "distinctValues": 2334
+        },
+        "gpuTimeMs": {
+          "valid": 2474,
+          "mean": 9.324199838318513,
+          "median": 9.3154,
+          "p95": 10.61,
+          "p99": 11.7134,
+          "distinctValues": 2360
+        },
+        "cpuBusyMs": {
+          "valid": 2474,
+          "mean": 12.015142724333064,
+          "median": 11.73375,
+          "p95": 14.8015,
+          "p99": 16.7054,
+          "distinctValues": 2398
+        },
+        "cpuWaitMs": {
+          "valid": 2474,
+          "mean": 0.0806485044462409,
+          "median": 0.06625,
+          "p95": 0.1474,
+          "p99": 0.196,
+          "distinctValues": 889
+        },
+        "syncIntervals": {
+          "0": 2474
+        }
+      },
+      {
+        "frames": 2484,
+        "averageFps": 83.05790642756449,
+        "frameMs": {
+          "valid": 2484,
+          "mean": 12.039792995169082,
+          "median": 11.81005,
+          "p95": 14.6008,
+          "p99": 16.8893,
+          "distinctValues": 2432
+        },
+        "gpuBusyMs": {
+          "valid": 2484,
+          "mean": 8.047098309178743,
+          "median": 8.15455,
+          "p95": 9.0908,
+          "p99": 9.3218,
+          "distinctValues": 2362
+        },
+        "gpuTimeMs": {
+          "valid": 2484,
+          "mean": 9.28411771336554,
+          "median": 9.2973,
+          "p95": 10.546,
+          "p99": 12.3215,
+          "distinctValues": 2396
+        },
+        "cpuBusyMs": {
+          "valid": 2484,
+          "mean": 11.959995933977456,
+          "median": 11.743,
+          "p95": 14.4652,
+          "p99": 16.717,
+          "distinctValues": 2406
+        },
+        "cpuWaitMs": {
+          "valid": 2484,
+          "mean": 0.07979472624798711,
+          "median": 0.06584999999999999,
+          "p95": 0.1459,
+          "p99": 0.202,
+          "distinctValues": 891
+        },
+        "syncIntervals": {
+          "0": 2484
+        }
+      }
+    ],
+    "aggregate": {
+      "frames": 7466,
+      "averageFps": 83.22514148544373,
+      "frameMs": {
+        "valid": 7466,
+        "mean": 12.015599879453523,
+        "median": 11.77,
+        "p95": 14.6262,
+        "p99": 16.6864,
+        "distinctValues": 6865
+      },
+      "gpuBusyMs": {
+        "valid": 7466,
+        "mean": 8.057743945888026,
+        "median": 8.1282,
+        "p95": 9.0693,
+        "p99": 9.3033,
+        "distinctValues": 6325
+      },
+      "gpuTimeMs": {
+        "valid": 7466,
+        "mean": 9.288647736405036,
+        "median": 9.29025,
+        "p95": 10.5746,
+        "p99": 11.9706,
+        "distinctValues": 6577
+      },
+      "cpuBusyMs": {
+        "valid": 7466,
+        "mean": 11.936357165818377,
+        "median": 11.7015,
+        "p95": 14.4941,
+        "p99": 16.525,
+        "distinctValues": 6831
+      },
+      "cpuWaitMs": {
+        "valid": 7466,
+        "mean": 0.07924429413340477,
+        "median": 0.0652,
+        "p95": 0.1437,
+        "p99": 0.1949,
+        "distinctValues": 1255
+      },
+      "syncIntervals": {
+        "0": 7466
+      }
+    },
+    "lostEtwEventsWarningCount": 0
+  },
+  "changes": {
+    "averageFpsPercent": -4.485006236541911,
+    "gpuBusyPercent": -1.0956222327256793,
+    "gpuTimePercent": 1.1290283836507875
+  },
+  "limitations": [
+    "One sequential launch per build with three adjacent sampling windows; not three independent launches.",
+    "Measures whole-client frame cost, not an isolated CPUTick dispatch.",
+    "Guest state was not synchronized byte-for-byte across clients; both cold-started the same production world and completed the same minimum warmup.",
+    "Local Desktop mode only; no headset/stereo or remote multiplayer result.",
+    "PresentMon reported lost ETW events; only finite metrics used, with GPU metrics present for at least 95% of selected rows. Raw client logs, bundles and CSVs remain local."
+  ],
+  "baselineShaderSourceSha256": {
+    "main.shader": "bf79a3435b28d9f97f8e330757cc5541ef96512f86db7e94c25b97e78feb81b7",
+    "src/mem.h": "3678bd72d89d1de4a3fae415b3f697d10bf1caac3d5a08073e2d55f4f305f73b",
+    "src/emu.h": "7f9891949cc6eb242a6b2528d4cf727e546048f67a6d05ba793de9141ba82fc4"
+  }
+}

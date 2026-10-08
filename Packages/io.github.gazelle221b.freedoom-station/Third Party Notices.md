@@ -9,6 +9,7 @@ updated for publication; its previous bytes remain under LicenseBoard/History.
 | Component | Existing notice | Source/provenance |
 | --- | --- | --- |
 | PiMaker RVC | MIT | `ThirdParty/PiMaker/rvc/LICENSE`, README and pinned source setup |
+| ShaderEmu optimization ideas/adaptations | MIT, Copyright (c) 2026 Mykhailo Moroz | `Tools~/Doom/ShaderEmu-LICENSE.txt`; timer hoisting and aligned RAM stores adapted to this RVC core; [reference source](https://github.com/MichaelMoroz/ShaderEmu/tree/30e6b115ce54d4538498589b65257d9d30bc05a9) |
 | PiMaker Dial | CC BY-NC-SA 2.0 | `ThirdParty/PiMaker/Dial/LICENSE-CC-BY-NC-SA-2.0.txt`, `PROVENANCE.md`, `Tools~/ThirdParty/Dial-source` |
 | Doom/embeddeddoom engine and integration | GPL notices and component qualifications | `Tools~/Doom/source-overlay/doom_payload/licenses/LICENSE-NOTES.md`, `FREEDOOM_COMPONENTS.md`, upstream licenses and modification notices |
 | Freedoom Phase 1 0.13.0 | BSD-3-Clause and original credits | Board documents 01–03 and component source records; WAD not included |

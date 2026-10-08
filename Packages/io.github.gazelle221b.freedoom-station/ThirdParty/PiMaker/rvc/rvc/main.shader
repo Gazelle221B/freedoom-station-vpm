@@ -59,7 +59,7 @@
 
             #define PASS_TICK
 
-            // Cache buster: 31
+            // Cache buster: 32
 
             // custom crt include w/ Texture2D<uint4> self-reference
             #include "crt.cginc"
@@ -138,6 +138,7 @@
                     }
 
                     decode();
+                    emulate_begin_pass();
 
                     [fastopt]
                     for (uint i = 0; i < _Ticks && !cpu.stall; i++) {
@@ -164,7 +165,7 @@
 
             #define PASS_COMMIT
 
-            // Cache buster: 31
+            // Cache buster: 32
 
             // custom crt include
             #include "crt.cginc"

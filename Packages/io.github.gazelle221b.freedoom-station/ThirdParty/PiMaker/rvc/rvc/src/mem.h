@@ -158,6 +158,44 @@ uint mem_get_word(uint addr) {
     return mem_get_cached_or_tex(addr);
 }
 
+// Shared by byte merging and aligned full-word writes. Cache/stall layout is unchanged.
+void mem_store_cached_word(uint word_addr, uint val) {
+    // put written value into L1 cache
+    mem_cache_bloom |= word_addr;
+
+    if (word_addr == 0) {
+        // very special case
+        cpu.cache.ram_l1_last_addr = word_addr;
+        cpu.cache.ram_l1_last_val = val;
+        cpu.stall = STALL_MEM_CACHE_L1;
+        return;
+    }
+
+    uint arr_idx = RAM_L1_ARRAY_IDX(word_addr);
+    uint4 cur = l1_cache[arr_idx];
+    if (cur.x == 0 || cur.x == word_addr) {
+        l1_cache[arr_idx].x = word_addr;
+        l1_cache[arr_idx].y = val;
+    } else if (cur.z == 0 || cur.z == word_addr) {
+        l1_cache[arr_idx].z = word_addr;
+        l1_cache[arr_idx].w = val;
+    } else {
+        arr_idx += 512;
+        uint4 cur = l1_cache[arr_idx];
+        if (cur.x == 0 || cur.x == word_addr) {
+            l1_cache[arr_idx].x = word_addr;
+            l1_cache[arr_idx].y = val;
+        } else if (cur.z == 0 || cur.z == word_addr) {
+            l1_cache[arr_idx].z = word_addr;
+            l1_cache[arr_idx].w = val;
+        } else {
+            cpu.cache.ram_l1_last_addr = word_addr;
+            cpu.cache.ram_l1_last_val = val;
+            cpu.stall = STALL_MEM_CACHE_L1;
+        }
+    }
+}
+
 void mem_set_byte(uint addr, uint val) {
     if ((addr & 0x80000000) == 0) {
         [branch]
@@ -205,42 +243,8 @@ void mem_set_byte(uint addr, uint val) {
     uint byte_offset = (addr & 0x3)*8;
     uint cur_val = mem_get_cached_or_tex(word_addr);
     val = (cur_val & ~(0xff << byte_offset)) | (val << byte_offset);
-    if (val != cur_val) {
-        // put written value into L1 cache
-        mem_cache_bloom |= word_addr;
+    if (val != cur_val) mem_store_cached_word(word_addr, val);
 
-        if (word_addr == 0) {
-            // very special case
-            cpu.cache.ram_l1_last_addr = word_addr;
-            cpu.cache.ram_l1_last_val = val;
-            cpu.stall = STALL_MEM_CACHE_L1;
-            return;
-        }
-
-        uint arr_idx = RAM_L1_ARRAY_IDX(word_addr);
-        uint4 cur = l1_cache[arr_idx];
-        if (cur.x == 0 || cur.x == word_addr) {
-            l1_cache[arr_idx].x = word_addr;
-            l1_cache[arr_idx].y = val;
-        } else if (cur.z == 0 || cur.z == word_addr) {
-            l1_cache[arr_idx].z = word_addr;
-            l1_cache[arr_idx].w = val;
-        } else {
-            arr_idx += 512;
-            uint4 cur = l1_cache[arr_idx];
-            if (cur.x == 0 || cur.x == word_addr) {
-                l1_cache[arr_idx].x = word_addr;
-                l1_cache[arr_idx].y = val;
-            } else if (cur.z == 0 || cur.z == word_addr) {
-                l1_cache[arr_idx].z = word_addr;
-                l1_cache[arr_idx].w = val;
-            } else {
-                cpu.cache.ram_l1_last_addr = word_addr;
-                cpu.cache.ram_l1_last_val = val;
-                cpu.stall = STALL_MEM_CACHE_L1;
-            }
-        }
-    }
 }
 
 void mem_set(uint addr, uint val, uint word_size) {
@@ -255,6 +259,17 @@ void mem_set(uint addr, uint val, uint word_size) {
             case 0x0200bff8: cpu.clint.mtime_lo = val; return;
             case 0x0200bffc: cpu.clint.mtime_hi = val; return;
         }
+    }
+
+    // ShaderEmu's aligned-store idea, adapted to this core's word cache.
+    // MMIO, unaligned stores, and the reserved zero-address fallback retain
+    // the byte path (zero is the cache's empty-entry sentinel).
+    uint word_addr = addr & 0x7fffffffu;
+    if (word_size == WORD_SIZE_FULL && (addr & 0x80000003u) == 0x80000000u
+        && word_addr != 0 && word_addr < RAM_MAX) {
+        if (val != mem_get_cached_or_tex(word_addr))
+            mem_store_cached_word(word_addr, val);
+        return;
     }
 
     [loop]
