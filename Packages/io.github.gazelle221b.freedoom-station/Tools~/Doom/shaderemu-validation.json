@@ -1,0 +1,117 @@
+{
+  "referenceCommit": "30e6b115ce54d4538498589b65257d9d30bc05a9",
+  "unity": "2022.3.22f1",
+  "host": "existing local Doom world, production core copied byte-for-byte from this branch",
+  "validatedSourceSha256": {
+    "main.shader": "920adeda30a538a4f1b234463ebd28e6bc92c8edd74dd7f520d49935da3a6203",
+    "src/emu.h": "999ea5df640d37cd084cc2ca34a01ac0ce218530378e30c98abc0620e919f9a5",
+    "src/mem.h": "f3992232b28b58f169e78f9cfb0bf887c09abf6dc933d6827c1db12810f0f087"
+  },
+  "baseline": {
+    "isa": {
+      "passed": 61,
+      "failed": 0,
+      "skipped": 0,
+      "total": 61,
+      "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+      "api": "Direct3D11"
+    },
+    "memory": {
+      "cases": 512,
+      "failed": 0,
+      "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+      "api": "Direct3D11",
+      "memorySourceSha256": "3678bd72d89d1de4a3fae415b3f697d10bf1caac3d5a08073e2d55f4f305f73b"
+    },
+    "freedoomReferenceRecheck": {
+      "passed": true,
+      "checks": [
+        {
+          "offset": -2,
+          "counts": [
+            0,
+            0,
+            0
+          ],
+          "passed": false
+        },
+        {
+          "offset": -1,
+          "counts": [
+            2,
+            4,
+            4
+          ],
+          "passed": true
+        },
+        {
+          "offset": 0,
+          "counts": [
+            0,
+            0,
+            0
+          ],
+          "passed": false
+        },
+        {
+          "offset": 1,
+          "counts": [
+            0,
+            0,
+            0
+          ],
+          "passed": false
+        },
+        {
+          "offset": 2,
+          "counts": [
+            0,
+            0,
+            0
+          ],
+          "passed": false
+        }
+      ],
+      "note": "Original host runner selected shareware reference and failed; offline Freedoom recheck passed. Original result retained locally."
+    }
+  },
+  "candidate": {
+    "isa": {
+      "passed": 61,
+      "failed": 0,
+      "skipped": 0,
+      "total": 61,
+      "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+      "api": "Direct3D11"
+    },
+    "memory": {
+      "cases": 512,
+      "failed": 0,
+      "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+      "api": "Direct3D11",
+      "memorySourceSha256": "f3992232b28b58f169e78f9cfb0bf887c09abf6dc933d6827c1db12810f0f087"
+    },
+    "gameVerification": {
+      "passed": true,
+      "reason": "E1M1 scene and HUD matched C reference",
+      "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+      "api": "Direct3D11",
+      "unityFrames": 51215,
+      "bootFrames": 29445,
+      "doomFrames": 3,
+      "seconds": 571.3457256,
+      "bootSeconds": 329.0087116,
+      "clock": 186555287
+    },
+    "captureDirectoryRegression": {
+      "passed": true,
+      "directoryCreated": true,
+      "pngBytes": 195111
+    }
+  },
+  "performance": "No speed/FPS claim: exploratory batch GPU sampler repeated identical timings; VRChat/HMD FPS unmeasured.",
+  "validationGaps": [
+    "Validated in existing host project, not a fresh VPM installation.",
+    "SDK build/upload and VRChat client/HMD performance not rerun."
+  ]
+}

@@ -269,6 +269,7 @@ public static class DoomLicenseBoardBuild
     public static void CaptureWorld(string name="crt-and-board-layout") { Capture(new Vector3(2.8f,2.5f,-6),3f,1920,1080,name); }
     static void Capture(Vector3 position,float size,int width,int height,string name)
     {
+        Directory.CreateDirectory(Output);
         var go=new GameObject("License board screenshot camera") { hideFlags=HideFlags.HideAndDontSave };
         var camera=go.AddComponent<Camera>(); camera.enabled=false; camera.orthographic=true; camera.orthographicSize=size;
         camera.transform.position=position; camera.clearFlags=CameraClearFlags.SolidColor; camera.backgroundColor=new Color(.015f,.02f,.025f); camera.cullingMask=~(1<<30);

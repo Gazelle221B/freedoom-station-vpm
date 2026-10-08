@@ -1,5 +1,5 @@
 param(
-    [ValidateSet('Prepare','Import','Verify','Probe','Isa','Errors','Board','Build')][string]$Mode='Verify',
+    [ValidateSet('Prepare','Import','Verify','Probe','Memory','Isa','Errors','Board','Build')][string]$Mode='Verify',
     [int]$Timeout=1800,
     [int]$Ticks=4096,
     [Parameter(Mandatory=$true)][string]$Project
@@ -31,10 +31,11 @@ if(-not $env:DOOM_M_REFERENCE){$env:DOOM_M_REFERENCE=Join-Path $taskSource 'doom
 if(-not $env:DOOM_PROBE_OUT){$env:DOOM_PROBE_OUT=Join-Path $env:DOOM_OUTPUT_ROOT 'probe'}
 if(-not $env:DOOM_ISA_DATA){$env:DOOM_ISA_DATA=Join-Path $taskSource 'doom_payload/build/isa-textures'}
 if(-not $env:DOOM_ISA_OUT){$env:DOOM_ISA_OUT=Join-Path $env:DOOM_OUTPUT_ROOT 'isa'}
+if(-not $env:DOOM_MEMORY_OUT){$env:DOOM_MEMORY_OUT=Join-Path $env:DOOM_OUTPUT_ROOT 'memory'}
 if(-not $env:DOOM_BUILD_OUT){$env:DOOM_BUILD_OUT=Join-Path $env:DOOM_OUTPUT_ROOT 'sdk-build'}
 if(-not $env:DOOM_ERRORS_OUT){$env:DOOM_ERRORS_OUT=Join-Path $env:DOOM_OUTPUT_ROOT 'errors'}
 if(-not $env:DOOM_BOARD_OUT){$env:DOOM_BOARD_OUT=Join-Path $env:DOOM_OUTPUT_ROOT 'board'}
-$taskMethod=@{Prepare='DoomPackage.InstallRun';Import='DoomWorldTextures.Run';Verify='DoomVerify.Run';Probe='DoomMulhProbe.Run';Isa='DoomIsaTests.Run';Errors='DoomWorldErrorTests.Run';Board='DoomLicenseBoardBuild.ValidateRun';Build='DoomBuild.Run'}[$Mode]
+$taskMethod=@{Prepare='DoomPackage.InstallRun';Import='DoomWorldTextures.Run';Verify='DoomVerify.Run';Probe='DoomMulhProbe.Run';Memory='DoomMemoryStoreTests.Run';Isa='DoomIsaTests.Run';Errors='DoomWorldErrorTests.Run';Board='DoomLicenseBoardBuild.ValidateRun';Build='DoomBuild.Run'}[$Mode]
 $taskProcess=Start-Process -FilePath $env:UNITY_EDITOR -ArgumentList @('-batchmode','-force-d3d11','-projectPath',('"'+$taskProject+'"'),'-executeMethod',$taskMethod,'-logFile',('"'+$taskLog+'"')) -WindowStyle Hidden -PassThru
 Write-Output "Unity $Mode PID=$($taskProcess.Id) project=$taskProject"
 if(-not $taskProcess.WaitForExit(($Timeout+240)*1000)){$taskProcess.Kill();throw "Unity $Mode timed out; see $taskLog"}
