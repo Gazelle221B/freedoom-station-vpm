@@ -109,9 +109,9 @@
       "pngBytes": 195111
     }
   },
-  "performance": "No speed/FPS claim: exploratory batch GPU sampler repeated identical timings; VRChat/HMD FPS unmeasured.",
+  "performance": "Initial batch GPU sampler was unsuitable. Subsequent actual VRChat Desktop results are in vrchat-performance.json; average FPS did not improve in that comparison.",
   "validationGaps": [
     "Validated in existing host project, not a fresh VPM installation.",
-    "SDK build/upload and VRChat client/HMD performance not rerun."
+    "Headset/stereo and remote multiplayer performance not measured. No SDK upload performed."
   ]
 }

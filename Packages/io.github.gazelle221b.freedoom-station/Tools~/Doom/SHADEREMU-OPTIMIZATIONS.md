@@ -26,7 +26,7 @@ The first baseline run selected an older host runner's shareware `golden-auto.tx
 
 The first changed-core game run passed the C comparator, then hit an existing missing screenshot-directory exception before saving the final report. `Capture` now creates its output directory. A separate regression started with a missing directory and successfully wrote a 1920x1080 PNG. The complete game verification was rerun after this fix; the sanitized evidence file records its final result.
 
-An exploratory GPU sampler produced the same timing for every recorded sample in this batch-mode host. Those readings are unsuitable for a speed comparison and are not used as performance evidence. No FPS improvement percentage is claimed. VRChat client/HMD performance and a fresh SDK upload/build were not measured in this change.
+An exploratory GPU sampler produced the same timing for every recorded sample in this batch-mode host. Those readings are unsuitable for a speed comparison and are not used as performance evidence. No speed claim was based on that sampler. A subsequent actual VRChat Desktop comparison and fresh local SDK builds are documented in [VRCHAT-PERFORMANCE.md](VRCHAT-PERFORMANCE.md). That comparison did not show an FPS improvement; headset performance and SDK upload remain unmeasured.
 
 ## Reproduce
 
